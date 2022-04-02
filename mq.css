@@ -1,0 +1,497 @@
+@media screen and (max-width:1300px) {
+    header{
+        background: linear-gradient(rgba(0, 0, 0, .88), rgba(0, 0, 0, .88)), url("images/intro-bg.jpg") center no-repeat fix;
+        background-size: 100% 100%;
+        height: 100vh;
+    }
+
+    .content{
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        transform: translate(0, -50%);
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    nav .icon{
+        display: block;
+    }
+
+    .links{
+        display: none;
+    }
+
+    .logo{
+        width: 70%;
+    }
+
+    .content h1{
+        font-size: 2.2rem;
+        font-weight: 100;
+    }
+
+    .content p{
+        font-size: 0.8rem;
+    }
+}
+
+
+@media screen and (min-width:481px)and (max-width:599px) {
+    nav .icon{
+        display: block;
+    }
+
+    .links{
+        display: none;
+    }
+
+    
+    .logo{
+        width: 50%;
+    }
+
+    .content h1{
+        font-size: 3rem;
+        font-weight: 100;
+    }
+
+    .content p{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:768px) {
+    nav .icon{
+        display: block;
+    }
+
+    .links{
+        display: none;
+    }
+
+    
+    .logo{
+        width: 50%;
+    }
+
+    .content h1{
+        font-size: 4.5rem;
+        font-weight: 100;
+    }
+
+    .content p{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width:889px) and (max-width:1000px) {
+    .content h1{
+        font-size: 5rem;
+        font-weight: 100;
+    }
+
+    .content p{
+        font-size: 1.4rem;
+    }
+
+    
+    .content button{
+        height: 3rem;
+        width: 11rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    nav .links{
+        float: none;
+        position: fixed;
+        z-index: 10;
+        background: black;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        width: auto;
+        justify-content: space-evenly;
+        bottom: 100%;
+        width: 100%;
+        /* overflow: hidden; */
+        transition: all .5s ease-in-out;
+    } 
+
+    nav :checked ~ .links{
+        bottom: 0;
+    }
+
+    .icon{
+        z-index: 11;
+    }
+
+    .content{
+        overflow: hidden;
+    }
+
+    nav :checked ~ .icon .line:nth-child(1){
+        transform: translateY(8px) rotate(225deg);
+    }
+
+    nav :checked ~ .icon .line:nth-child(3){
+        transform: translateY(-8px) rotate(-225deg);
+    }
+
+    nav :checked ~ .icon .line:nth-child(2){
+        opacity: 0;
+    }
+
+    .about-me{
+        padding: 2rem 0;
+    }
+
+    .text{
+        display: grid;
+        justify-content: space-between;
+    }
+
+    .text img{
+        width: 12rem;
+        margin: auto;
+        height: 12rem;
+    }
+
+    .text p{
+        margin: auto;
+        width: 80%;
+        text-align: justify;
+    } 
+
+    .icons{
+        font-size: 3rem;
+        width: 80%;
+        margin: auto;
+    }
+
+    .p-p{
+        padding: 0;
+    }
+
+    .process{
+        display: grid;
+    }
+
+    .p-p .empty{
+        margin: 1rem auto;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1124px){
+    .about-me{
+        padding: 2rem 0;
+    }
+
+    .text{
+        display: grid;
+        justify-content: space-between;
+    }
+
+    .text img{
+        width: 14rem;
+        margin: auto;
+        height: 14rem;
+    }
+
+    .text p{
+        margin: auto;
+        width: 70%;
+        text-align: justify;
+    } 
+
+    .icons{
+        font-size: 4rem;
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:287px) {
+    .card{
+        height: 15rem;
+        margin: .5rem;
+        width: 70%;
+        margin: auto;
+    }
+
+    .card p{
+        font-size: 0.7rem;
+    }
+
+    .card .number{
+        bottom: 45%;
+        transform: translateY(-45%);
+    }
+
+    .empty{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .price{
+        width: 80%;
+        margin: auto;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width:288px) and (max-width:382px) {
+    .card{
+        height: 13rem;
+        margin: .5rem;
+        width: 70%;
+        margin: auto;
+    }
+
+    .card p{
+        font-size: 0.7rem;
+    }
+
+    .card .number{
+        bottom: 40%;
+        transform: translateY(-40%);
+    }
+
+    .empty{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .price{
+        width: 70%;
+        margin: auto;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width:383px) and (max-width:481px) {
+    .card{
+        height: 13rem;
+        margin: auto;
+        width: 70%;
+    }
+
+    .card p{
+        font-size: 13px;
+    }
+
+    .card .number{
+        bottom: 40%;
+        transform: translateY(-40);
+    }
+
+    .empty{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .price{
+        width: 70%;
+        margin: auto;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width:482px) and (max-width:607px) {
+    .card{
+        height: 13rem;
+        margin: auto;
+        width: 50%;
+    }
+
+    .card p{
+        font-size: 13px;
+    }
+
+    .card .number{
+        bottom: 50%;
+        transform: translateY(-50%);
+    }
+
+    .empty{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .price{
+        width: 70%;
+        margin: auto;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width:608px) and (max-width:759px) {
+    .card{
+        height: 13rem;
+        margin: auto;
+        width: 40%;
+    }
+
+    .card p{
+        font-size: 13px;
+    }
+
+    .card .number{
+        bottom: 50%;
+        transform: translateY(-50);
+    }
+
+    .empty{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .price{
+        width: 70%;
+        margin: auto;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width:760px) and (max-width: 768px) {
+    .card{
+        height: 13rem;
+        margin: auto;
+        width: 40%;
+    }
+
+    .card p{
+        font-size: 13px;
+    }
+
+    .card .number{
+        bottom: 35%;
+        transform: translateY(-35);
+    }
+
+    .empty{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .price{
+        width: 70%;
+        margin: auto;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width: 853px) {
+    .p-p{
+        padding: 0;
+    }
+
+    .card{
+        margin: .5rem;
+        height: 15rem;
+        margin-bottom: 3rem;
+    }
+
+    .card p{
+        font-size: .7rem;
+    }
+}
+
+@media screen and (min-width:854px) and (max-width: 1040px) {
+    .p-p{
+        padding: 0;
+    }
+
+    .card{
+        margin: .5rem;
+        height: 18rem;
+        margin-bottom: 3rem;
+    }
+
+    .card p{
+        font-size: .9rem;
+    }
+}
+
+@media screen and (min-width:1041px) and (max-width: 1300px) {
+    .p-p{
+        padding: 0;
+    }
+
+    .card{
+        margin: .6rem;
+        height: 17rem;
+        margin-bottom: 3rem;
+    }
+
+    .card .number{
+        bottom: 40%;
+        transform: translateY(-40%);
+    }
+
+    .card p{
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width:749px) {
+    .contact-me{
+        padding: 2rem 0;
+        margin-top: 2rem;
+    }
+
+    .contact-me h4{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    
+    .contact-me h5{
+        text-align: center;
+    }
+
+    .contact-me .empty{
+        width: 80%;
+        margin: auto;
+    }
+
+    .reach-me{
+        display: grid;
+        justify-content: space-evenly;
+    }
+
+    .trad{
+        width: 80%;
+        margin: auto;
+    }
+
+    .social{
+        font-size: 3rem;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:750px) and (max-width:1060px) {
+    .contact-me{
+        padding: 2rem 6rem;
+    }
+}
+
+@media screen and (min-width:750px) and (max-width:768px) {
+    .contact-me{
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width:320px) {
+    footer p{
+        font-size: .8rem;
+    }
+
+    .social{
+        font-size: 2.5rem;
+    }
+}
