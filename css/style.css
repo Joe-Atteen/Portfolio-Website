@@ -144,11 +144,13 @@ nav .links a{
     background: transparent;
     border: 1px solid #009688;
     cursor: pointer;
+    box-shadow: black 0 0 3px 1px;
 }
 
 .content button:hover{
     background: #009688;
     transition: 0.5s;
+    box-shadow: white 0 0 3px 1px;
 }
 
 .about-me{
