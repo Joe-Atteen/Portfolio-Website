@@ -1,9 +1,11 @@
-var nav = document.getElementById('nav');
- window.onscroll = function() {
-    if (window.pageYOffset > 100) {
-        nav.style.background = "#000";
+const nav = document.querySelector('nav');
+
+window.addEventListener('scroll', () => {
+    console.log(window.scrollY);
+    if (window.scrollY >= 50) {
+        nav.classList.add('black');
     }
-    else{
-        nav.style.background = "transparent";
+    else {
+        nav.classList.remove('black');
     }
-}
+})
