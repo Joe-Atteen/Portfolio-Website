@@ -415,8 +415,9 @@ nav .links li.active::after{
 .card{
     border: 1px solid #009688;
     margin: 2rem;
-    padding: 10px 20px;
+    padding: 80px 30px;
     height: 20rem;
+    width: 18rem;
     border-radius: 4rem;
     margin-bottom: 2rem;
     box-shadow: inset black 10px 20px 30px,
