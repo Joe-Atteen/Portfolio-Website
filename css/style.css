@@ -446,7 +446,6 @@ nav .links li.active::after{
     transform: translate(-12.5%, 0);
     width: 100%;
     margin: auto;
-    /* transform: translateY(-50%); */
 }
 
 .p-p .empty{
@@ -501,7 +500,7 @@ strong{
 .reach-me{
     display: flex;
     justify-content: space-between;
-    margin-top: 4rem;
+    margin-top: 3.5rem;
     margin-bottom: 3rem;
 }
 
@@ -529,7 +528,6 @@ strong{
 
 .social i:hover{
     color: #009688;
-    cursor: pointer;
 }
 
 .social a{
