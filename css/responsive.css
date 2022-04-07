@@ -618,16 +618,17 @@
         margin: .5rem;
         width: 70%;
         margin: auto;
+        padding: 65px 20px;
     }
 
     .card p{
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
-
+ 
     .card .number{
-        bottom: 45%;
-        transform: translateY(-45%);
-    }
+        bottom: 17%;
+        transform: translate(-10%, 0);
+    } 
 
     .empty{
         margin-top: 1rem;
@@ -641,21 +642,22 @@
     }
 }
 
-@media screen and (min-width:288px) and (max-width:382px) {
+@media screen and (min-width:288px) and (max-width:411px) {
     .card{
         height: 13rem;
         margin: .5rem;
         width: 70%;
         margin: auto;
+        padding: 40px 40px;
     }
 
     .card p{
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 
     .card .number{
-        bottom: 40%;
-        transform: translateY(-40%);
+        bottom: 10%;
+        transform: translate(-16%, 0);
     }
 
     .empty{
@@ -670,11 +672,12 @@
     }
 }
 
-@media screen and (min-width:383px) and (max-width:481px) {
+@media screen and (min-width:412px) and (max-width:500px) {
     .card{
         height: 13rem;
         margin: auto;
         width: 70%;
+        padding: 50px 50px;
     }
 
     .card p{
@@ -682,8 +685,8 @@
     }
 
     .card .number{
-        bottom: 40%;
-        transform: translateY(-40);
+        bottom: 13%;
+        transform: translate(-17%, 0);
     }
 
     .empty{
@@ -698,76 +701,21 @@
     }
 }
 
-@media screen and (min-width:482px) and (max-width:607px) {
+@media screen and (min-width:501px) and (max-width:768px) {
     .card{
         height: 13rem;
         margin: auto;
-        width: 50%;
-    }
-
-    .card p{
-        font-size: 13px;
-    }
-
-    .card .number{
-        bottom: 50%;
-        transform: translateY(-50%);
-    }
-
-    .empty{
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-
-    .price{
         width: 70%;
-        margin: auto;
-        text-align: justify;
-    }
-}
-
-@media screen and (min-width:608px) and (max-width:759px) {
-    .card{
-        height: 13rem;
-        margin: auto;
-        width: 40%;
+        padding: 50px 50px;
     }
 
     .card p{
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .card .number{
-        bottom: 50%;
-        transform: translateY(-50);
-    }
-
-    .empty{
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-
-    .price{
-        width: 70%;
-        margin: auto;
-        text-align: justify;
-    }
-}
-
-@media screen and (min-width:760px) and (max-width: 768px) {
-    .card{
-        height: 13rem;
-        margin: auto;
-        width: 40%;
-    }
-
-    .card p{
-        font-size: 13px;
-    }
-
-    .card .number{
-        bottom: 35%;
-        transform: translateY(-35);
+        bottom: 10%;
+        transform: translateY(-13%, 0);
     }
 
     .empty{
@@ -788,13 +736,23 @@
     }
 
     .card{
-        margin: .5rem;
-        height: 15rem;
+        width: 24%;
+        margin: 0;
+        height: 18rem;
         margin-bottom: 3rem;
     }
 
     .card p{
         font-size: .7rem;
+    }
+
+    .card .number{
+        bottom: 22%;
+        transform: translate(-14%, 0);
+    }
+
+    .price{
+        width: 70%;
     }
 }
 
@@ -807,10 +765,21 @@
         margin: .5rem;
         height: 18rem;
         margin-bottom: 3rem;
+        padding: 70px 30px;
     }
 
     .card p{
         font-size: .9rem;
+    }
+
+    .card .number{
+        bottom: 28%;
+        transform: translate(-15%, 0);
+    }
+
+    
+    .price{
+        width: 70%;
     }
 }
 
@@ -821,13 +790,9 @@
 
     .card{
         margin: .6rem;
-        height: 17rem;
+        height: 18rem;
         margin-bottom: 3rem;
-    }
-
-    .card .number{
-        bottom: 40%;
-        transform: translateY(-40%);
+        padding: 75px 30px;
     }
 
     .card p{

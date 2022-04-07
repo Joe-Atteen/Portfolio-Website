@@ -129,7 +129,10 @@ nav .links li.active::after{
 .content{
     text-align: center;
     color: white;
-    transform: translateY(100%);
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translate(0, -50%);
 }
 
 .content h1{
@@ -415,13 +418,14 @@ nav .links li.active::after{
 .card{
     border: 1px solid #009688;
     margin: 2rem;
-    padding: 80px 30px;
+    padding: 90px 30px;
     height: 20rem;
     width: 18rem;
     border-radius: 4rem;
     margin-bottom: 2rem;
     box-shadow: inset black 10px 20px 30px,
     inset black -10px -20px 30px;
+    position: relative;
 }
 
 .card h3{
@@ -437,9 +441,12 @@ nav .links li.active::after{
     font-size: 6rem;
     color: #009688;
     opacity: .3;
-    position: relative;
-    bottom: 50%;
-    transform: translateY(-50%);
+    position: absolute;
+    bottom: 30%;
+    transform: translate(-12.5%, 0);
+    width: 100%;
+    margin: auto;
+    /* transform: translateY(-50%); */
 }
 
 .p-p .empty{
@@ -454,6 +461,11 @@ nav .links li.active::after{
     margin: auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    text-align: justify;
+}
+
+strong{
+    color: #009688;
 }
 
 .contact-me{
