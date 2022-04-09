@@ -227,6 +227,7 @@ nav .links li.active::after{
     transition: 1.1s;
     position: relative;
     margin-bottom: 1rem;
+    padding-bottom: 3rem;
 }
 
 .slides-div{
