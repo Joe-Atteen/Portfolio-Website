@@ -237,43 +237,43 @@ nav .links li.active::after{
 }
 
 #slide-1{
-    background: url("/images/pic1.png") center no-repeat;
+    /* background: url("/images/pic1.png") center no-repeat; */
     color: black;
     text-align: center;
 }
 
 #slide-2{
-    background: url("/images/pic2.png") center no-repeat;
+    /* background: url("/images/pic2.png") center no-repeat; */
     color: black;
     text-align: center;
 }
 
 #slide-3{
-    background: url("/images/pic3.png") center no-repeat;
+    /* background: url("/images/pic3.png") center no-repeat; */
     color: black;
     text-align: center;
 }
 
 #slide-4{
-    background: url("/images/pic4.png") center no-repeat;
+    /* background: url("/images/pic4.png") center no-repeat; */
     color: black;
     text-align: center;
 }
 
 #slide-5{
-    background: url("/images/pic5.png") center no-repeat;
+    /* background: url("/images/pic5.png") center no-repeat; */
     color: black;
     text-align: center;
 }
 
 #slide-6{
-    background: url("/images/pic6.png") center no-repeat;
+    /* background: url("/images/pic6.png") center no-repeat; */
     color: black;
     text-align: center;
 }
 
 #slide-7{
-    background: url("/images/pic7.png") center no-repeat;
+    /* background: url("/images/pic7.png") center no-repeat; */
     color: black;
     text-align: center;
 }
