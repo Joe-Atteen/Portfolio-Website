@@ -195,6 +195,25 @@ nav .links li.active::after{
     box-shadow: white 0 0 5px 2px;
 }
 
+.menu-social{
+    font-size: clamp(2rem, .5rem + 10vw, 5rem);
+    position: absolute;
+    bottom: 5%;
+    left: 18%;
+    width: 100%;
+    margin: auto;
+    display: none;
+}
+
+.menu-social i:hover{
+    color: #009688;
+}
+
+.menu-social a{
+    color: white;
+    text-decoration: none;
+}
+
 .about-me{
     padding: 2rem 10rem;
 }

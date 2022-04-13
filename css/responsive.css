@@ -110,6 +110,24 @@
     }
 }
 
+@media screen  and (max-width:768px) {
+    .menu-social{
+        display: block;
+    }
+}
+
+@media screen and (min-width:360px) and (max-width:700px) {
+    .menu-social{
+        left: 15%;
+    }
+}
+
+@media screen  and (max-width:359px) {
+    .menu-social{
+        left: 12%;
+    }
+}
+
 @media screen and (max-width:768px) {
     nav .links{
         position: fixed;
@@ -234,8 +252,8 @@
     nav button{
         width: 8.5rem;
         font-size: .52rem;
-        right: 16%;
-        transform: translate(-16%, 0);
+        right: 13%;
+        transform: translate(-13%, 0);
     }
 }
 
