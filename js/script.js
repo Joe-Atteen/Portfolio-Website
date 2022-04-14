@@ -10,6 +10,28 @@ window.addEventListener('scroll', () => {
     }
 })
 
+
+
+//on site load, logo shouldn't be seen
+function myFunction() {
+    document.getElementById("sig-log").style.opacity = 0;
+}
+
+//logo should appear on scroll
+window.addEventListener('scroll', () => {
+    if (window.scrollY >= 200) {
+        document.getElementById("sig-log").style.opacity = 1;
+        document.getElementById("sig-log").style.transition = "all .5s ease-in-out";
+    }
+    else {
+        document.getElementById("sig-log").style.opacity = 0;
+    }
+})
+
+
+
+
+
 //nav link highlight on scroll
 const sections = document.querySelectorAll('section');
 const navLi = document.querySelectorAll('nav .links li');
