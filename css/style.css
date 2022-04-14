@@ -50,7 +50,6 @@ nav{
     top: 0;
     padding: 0 5%;
     z-index: 1;
-
 }
 
 .logo{
@@ -75,6 +74,7 @@ nav .links{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /* transform: translateX(15%); */
 }
 
 nav .links img{
@@ -90,17 +90,18 @@ nav .links img{
 }
 
 nav button{
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     height: 3rem;
-    width: 10.5rem;
+    width: 8.5rem;
+    font-size: .6rem;
     color: white;
     background: transparent;
     border: 1px solid #009688;
     cursor: pointer;
     box-shadow: #009688 0 0 5px 2px;
-    right: 8%;
-    transform: translate(-8%, 0);
-    display: none;
+    /* right: 0;
+    transform: translate(0, 0); */
+    /* display: none; */
 }
 
 nav button:hover{
@@ -132,6 +133,7 @@ nav .links a{
     text-decoration: none;
     text-transform: uppercase;
     color: white;
+    margin-right: 0;
 }
 
 nav .links li{
@@ -289,22 +291,25 @@ nav .links li.active::after{
     /* background: url("/images/pic1.png") center no-repeat; */
     color: black;
     text-align: center;
+    display: none;
 }
 
 #slide-2{
     /* background: url("/images/pic2.png") center no-repeat; */
     color: black;
     text-align: center;
+    display: none;
 }
 
 #slide-3{
     /* background: url("/images/pic3.png") center no-repeat; */
     color: black;
     text-align: center;
+    display: none;
 }
 
 #slide-4{
-    /* background: url("/images/pic4.png") center no-repeat; */
+    background: url("/images/pic4.png") center no-repeat;
     color: black;
     text-align: center;
 }
@@ -313,18 +318,21 @@ nav .links li.active::after{
     /* background: url("/images/pic5.png") center no-repeat; */
     color: black;
     text-align: center;
+    display: none;
 }
 
 #slide-6{
     /* background: url("/images/pic6.png") center no-repeat; */
     color: black;
     text-align: center;
+    display: none;
 }
 
 #slide-7{
     /* background: url("/images/pic7.png") center no-repeat; */
     color: black;
     text-align: center;
+    display: none;
 }
 
 .description{
