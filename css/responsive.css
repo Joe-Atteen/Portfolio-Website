@@ -387,54 +387,54 @@
 
     .img{
         width: 12rem;
-        height: 19rem;
+        height: 23rem;
     }
     
     .button{
         width: 12rem;
-        height: 19rem;
+        height: 23rem;
     }
 
     #slider-span1:target ~ .image-slider #img1,
     #slider-span1:target ~ .image-slider #button-1{
         width: 18rem;
-        height: 25rem;
+        height: 29rem;
     }
 
     #slider-span2:target ~ .image-slider #img2,
     #slider-span2:target ~ .image-slider #button-2{
         width: 18rem;
-        height: 25rem;
+        height: 29rem;
     }
 
     #slider-span3:target ~ .image-slider #img3,
     #slider-span3:target ~ .image-slider #button-3{
         width: 18rem;
-        height: 25rem;
+        height: 29rem;
     }
 
     #slider-span4:target ~ .image-slider #img4,
     #slider-span4:target ~ .image-slider #button-4{
         width: 18rem;
-        height: 25rem;
+        height: 29rem;
     }
 
     #slider-span5:target ~ .image-slider #img5,
     #slider-span5:target ~ .image-slider #button-5{
         width: 18rem;
-        height: 25rem;
+        height: 29rem;
     }
 
     #slider-span6:target ~ .image-slider #img6,
     #slider-span6:target ~ .image-slider #button-6{
         width: 18rem;
-        height: 25rem;
+        height: 29rem;
     }
 
     #slider-span7:target ~ .image-slider #img7,
     #slider-span7:target ~ .image-slider #button-7{
         width: 18rem;
-        height: 25rem;
+        height: 29rem;
     }
 }
 
@@ -445,54 +445,54 @@
 
     .img{
         width: 12rem;
-        height: 16rem;
+        height: 20rem;
     }
     
     .button{
         width: 12rem;
-        height: 16rem;
+        height: 20rem;
     }
 
     #slider-span1:target ~ .image-slider #img1,
     #slider-span1:target ~ .image-slider #button-1{
         width: 15rem;
-        height: 25rem;
+        height: 26rem;
     }
 
     #slider-span2:target ~ .image-slider #img2,
     #slider-span2:target ~ .image-slider #button-2{
         width: 15rem;
-        height: 25rem;
+        height: 26rem;
     }
 
     #slider-span3:target ~ .image-slider #img3,
     #slider-span3:target ~ .image-slider #button-3{
         width: 15rem;
-        height: 25rem;
+        height: 26rem;
     }
 
     #slider-span4:target ~ .image-slider #img4,
     #slider-span4:target ~ .image-slider #button-4{
         width: 15rem;
-        height: 25rem;
+        height: 26rem;
     }
 
     #slider-span5:target ~ .image-slider #img5,
     #slider-span5:target ~ .image-slider #button-5{
         width: 15rem;
-        height: 25rem;
+        height: 26rem;
     }
 
     #slider-span6:target ~ .image-slider #img6,
     #slider-span6:target ~ .image-slider #button-6{
         width: 15rem;
-        height: 25rem;
+        height: 26rem;
     }
 
     #slider-span7:target ~ .image-slider #img7,
     #slider-span7:target ~ .image-slider #button-7{
         width: 15rem;
-        height: 25rem;
+        height: 26rem;
     }
 }
 
@@ -503,54 +503,54 @@
 
     .img{
         width: 12rem;
-        height: 16rem;
+        height: 20rem;
     }
     
     .button{
         width: 12rem;
-        height: 16rem;
+        height: 20rem;
     }
 
     #slider-span1:target ~ .image-slider #img1,
     #slider-span1:target ~ .image-slider #button-1{
         width: 15rem;
-        height: 25rem;
+        height: 26rem;
     }
 
     #slider-span2:target ~ .image-slider #img2,
     #slider-span2:target ~ .image-slider #button-2{
         width: 15rem;
-        height: 25rem;
+        height: 26rem;
     }
 
     #slider-span3:target ~ .image-slider #img3,
     #slider-span3:target ~ .image-slider #button-3{
         width: 15rem;
-        height: 25rem;
+        height: 26rem;
     }
 
     #slider-span4:target ~ .image-slider #img4,
     #slider-span4:target ~ .image-slider #button-4{
         width: 15rem;
-        height: 25rem;
+        height: 26rem;
     }
 
     #slider-span5:target ~ .image-slider #img5,
     #slider-span5:target ~ .image-slider #button-5{
         width: 15rem;
-        height: 25rem;
+        height: 26rem;
     }
 
     #slider-span6:target ~ .image-slider #img6,
     #slider-span6:target ~ .image-slider #button-6{
         width: 15rem;
-        height: 25rem;
+        height: 26rem;
     }
 
     #slider-span7:target ~ .image-slider #img7,
     #slider-span7:target ~ .image-slider #button-7{
         width: 15rem;
-        height: 25rem;
+        height: 26rem;
     }
 
     #slider-span1:target ~ .image-slider {left: 110%;}
@@ -569,54 +569,54 @@
 
     .img{
         width: 12rem;
-        height: 16rem;
+        height: 20rem;
     }
     
     .button{
         width: 12rem;
-        height: 16rem;
+        height: 20rem;
     }
 
     #slider-span1:target ~ .image-slider #img1,
     #slider-span1:target ~ .image-slider #button-1{
         width: 15rem;
-        height: 25rem;
+        height: 26rem;
     }
 
     #slider-span2:target ~ .image-slider #img2,
     #slider-span2:target ~ .image-slider #button-2{
         width: 15rem;
-        height: 25rem;
+        height: 26rem;
     }
 
     #slider-span3:target ~ .image-slider #img3,
     #slider-span3:target ~ .image-slider #button-3{
         width: 15rem;
-        height: 25rem;
+        height: 26rem;
     }
 
     #slider-span4:target ~ .image-slider #img4,
     #slider-span4:target ~ .image-slider #button-4{
         width: 15rem;
-        height: 25rem;
+        height: 26rem;
     }
 
     #slider-span5:target ~ .image-slider #img5,
     #slider-span5:target ~ .image-slider #button-5{
         width: 15rem;
-        height: 25rem;
+        height: 26rem;
     }
 
     #slider-span6:target ~ .image-slider #img6,
     #slider-span6:target ~ .image-slider #button-6{
         width: 15rem;
-        height: 25rem;
+        height: 26rem;
     }
 
     #slider-span7:target ~ .image-slider #img7,
     #slider-span7:target ~ .image-slider #button-7{
         width: 15rem;
-        height: 25rem;
+        height: 26rem;
     }
 
     #slider-span1:target ~ .image-slider {left: 170%;}
@@ -635,12 +635,12 @@
 
     .img{
         width: 11rem;
-        height: 16rem;
+        height: 18rem;
     }
     
     .button{
         width: 11rem;
-        height: 16rem;
+        height: 18rem;
     }
 
     #slider-span1:target ~ .image-slider #img1,
@@ -752,7 +752,7 @@
     }
 
     .price{
-        width: 70%;
+        width: 80%;
         margin: auto;
         text-align: justify;
     }
@@ -781,7 +781,7 @@
     }
 
     .price{
-        width: 70%;
+        width: 80%;
         margin: auto;
         text-align: justify;
     }

@@ -64,9 +64,9 @@ nav{
     align-items: center;
 }
 
-/* .log-active{
+.log-active{
     color: #009688;
-} */
+}
 
 nav .links{
     float: right;
