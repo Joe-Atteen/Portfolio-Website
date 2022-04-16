@@ -24,6 +24,7 @@ nav .icon{
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
+    z-index: 200;
 }
 
 nav .icon .line{
@@ -608,7 +609,6 @@ footer{
     bottom: 8%;
     right: 3.4%;
     height: 2.5rem;
-    z-index: 99;
     font-size: 1.2rem;
     padding: .7rem;
     border: none;
