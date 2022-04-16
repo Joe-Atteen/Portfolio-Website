@@ -605,19 +605,17 @@ footer{
 
 #my-btn{
     position: fixed;
-    bottom: 10%;
-    right: 5%;
+    bottom: 8%;
+    right: 3.4%;
+    height: 2.5rem;
     z-index: 99;
-    font-size: 1.5rem;
-    padding: .4rem;
+    font-size: 1.2rem;
+    padding: .7rem;
     border: none;
+    border-radius: 100%;
     background-color: #009688;
     color: white;
     cursor: pointer;
-    transition: all 5s ease-in-out;
+    opacity: .5;
     display: none;
-}
-
-#my-btn:hover{
-    background-color: #0dcebb;
 }

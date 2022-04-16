@@ -19,7 +19,7 @@ function myFunction() {
 
 //logo should appear on scroll
 window.addEventListener('scroll', () => {
-    if (window.scrollY >= 306) {
+    if (window.scrollY >= 220) {
         document.getElementById("sig-log").style.opacity = 1;
         document.getElementById("sig-log").style.transition = "all .5s ease-in-out";
     }
