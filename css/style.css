@@ -602,3 +602,22 @@ footer{
     font-weight: 100;
     text-transform: uppercase;
 }
+
+#my-btn{
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    z-index: 99;
+    font-size: 1.5rem;
+    padding: .4rem;
+    border: none;
+    background-color: #009688;
+    color: white;
+    cursor: pointer;
+    transition: all 5s ease-in-out;
+    display: none;
+}
+
+#my-btn:hover{
+    background-color: #0dcebb;
+}

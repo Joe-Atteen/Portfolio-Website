@@ -19,7 +19,7 @@ function myFunction() {
 
 //logo should appear on scroll
 window.addEventListener('scroll', () => {
-    if (window.scrollY >= 200) {
+    if (window.scrollY >= 306) {
         document.getElementById("sig-log").style.opacity = 1;
         document.getElementById("sig-log").style.transition = "all .5s ease-in-out";
     }
@@ -27,7 +27,6 @@ window.addEventListener('scroll', () => {
         document.getElementById("sig-log").style.opacity = 0;
     }
 })
-
 
 
 
@@ -54,3 +53,24 @@ window.addEventListener('scroll', () =>{
     })
 
 })
+
+
+
+
+//top page button
+mybutton = document.getElementById("my-btn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 175 || document.documentElement.scrollTop > 175) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
