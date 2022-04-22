@@ -234,15 +234,19 @@
     }
 
     .p-p{
-        padding: 0;
+        padding: 2rem 0;
     }
 
-    .process{
-        display: grid;
+    #card1, #card3{
+        margin: 1rem;
+    }
+
+    #card4{
+        margin-bottom: 1rem;
     }
 
     .p-p .empty{
-        margin: 1rem auto;
+        margin: 2rem auto;
     }
 }
 
@@ -725,13 +729,19 @@
     }
 }
 
+@media screen and (max-width:1000px) {
+    .p-p{
+        padding: 2rem 0;
+    }
+}
+
+
 @media screen and (max-width:287px) {
     .card{
-        height: 15rem;
-        margin: .5rem;
+        height: 13rem;
         width: 70%;
         margin: auto;
-        padding: 65px 20px;
+        padding: 50px 20px;
     }
 
     .card p{
@@ -739,14 +749,9 @@
     }
  
     .card .number{
-        bottom: 17%;
+        bottom: 14%;
         transform: translate(-10%, 0);
     } 
-
-    .empty{
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
 
     .price{
         width: 80%;
@@ -814,12 +819,31 @@
     }
 }
 
+@media screen and (max-width:500px) {
+    .process{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 @media screen and (min-width:501px) and (max-width:768px) {
+    .process{
+        display: inline;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #card1, #card3{
+        margin: 2.2rem;
+    }
+
     .card{
-        height: 13rem;
+        height: 15rem;
+        width: 40%;
         margin: auto;
-        width: 70%;
-        padding: 50px 50px;
+        padding: 60px 25px;
+        display: inline-table;
     }
 
     .card p{
@@ -827,8 +851,9 @@
     }
 
     .card .number{
-        bottom: 10%;
-        transform: translateY(-13%, 0);
+        bottom: 18%;
+        transform: translateY(-18%, 0);
+        left: 12%;
     }
 
     .empty{
@@ -843,13 +868,29 @@
     }
 }
 
-@media screen and (min-width:769px) and (max-width: 853px) {
-    .p-p{
-        padding: 0;
+@media screen and (min-width:570px) and (max-width: 650px) {
+    #card2, #card4{
+        margin-left: 1rem;
     }
 
+    #card1, #card3{
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (min-width:651px) and (max-width: 768px) {
+    #card2, #card4{
+        margin-left: 1.5rem;
+    }
+
+    #card1, #card3{
+        margin-left: 2.5rem;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width: 853px) {
     .card{
-        width: 24%;
+        width: 23%;
         margin: 0;
         height: 18rem;
         margin-bottom: 3rem;
@@ -870,10 +911,6 @@
 }
 
 @media screen and (min-width:854px) and (max-width: 1040px) {
-    .p-p{
-        padding: 0;
-    }
-
     .card{
         margin: .5rem;
         height: 18rem;
@@ -897,10 +934,6 @@
 }
 
 @media screen and (min-width:1041px) and (max-width: 1300px) {
-    .p-p{
-        padding: 0;
-    }
-
     .card{
         margin: .6rem;
         height: 18rem;
@@ -916,7 +949,7 @@
 @media screen and (max-width:749px) {
     .contact-me{
         padding: 2rem 0;
-        margin-top: 2rem;
+        /* margin-top: 2rem; */
     }
 
     .contact-me h4{
@@ -957,11 +990,11 @@
     }
 }
 
-@media screen and (min-width:750px) and (max-width:768px) {
+/* @media screen and (min-width:750px) and (max-width:768px) {
     .contact-me{
         margin-top: 2rem;
     }
-}
+} */
 
 @media screen and (max-width:320px) {
     footer p{
