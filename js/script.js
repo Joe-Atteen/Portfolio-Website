@@ -35,19 +35,19 @@ window.addEventListener('scroll', () => {
 const sections = document.querySelectorAll('section');
 const navLi = document.querySelectorAll('nav .links li');
 const lg = document.querySelector('logo');
-window.addEventListener('scroll', () =>{
+window.addEventListener('scroll', () => {
     let current = '';
     sections.forEach(section => {
         const sectionTop = section.offsetTop;
         const sectionHeight = section.clientHeight;
-        if (pageYOffset >= (sectionTop - sectionHeight / 3)){
+        if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
             current = section.getAttribute('id');
         }
     })
-    
+
     navLi.forEach(li => {
         li.classList.remove('active');
-        if (li.classList.contains(current)){
+        if (li.classList.contains(current)) {
             li.classList.add('active')
         }
     })
@@ -60,17 +60,33 @@ window.addEventListener('scroll', () =>{
 //top page button
 mybutton = document.getElementById("my-btn");
 
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
     if (document.body.scrollTop > 175 || document.documentElement.scrollTop > 175) {
-      mybutton.style.display = "block";
+        mybutton.style.display = "block";
     } else {
-      mybutton.style.display = "none";
+        mybutton.style.display = "none";
     }
 }
 
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
-  }
+}
+
+
+
+
+//menu collapse on menu item click
+const menulinks = document.getElementById("menu-link");
+const input = document.getElementById("check");
+
+menulinks.addEventListener("click", menu);
+
+function menu(event) {
+    if (event.target instanceof HTMLAnchorElement) {
+        check.checked = false;
+    }
+}
+

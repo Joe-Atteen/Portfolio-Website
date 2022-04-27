@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" onload="scrollFunction()">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,28 +14,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Festive&family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Festive&family=Poppins:wght@200;400&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/b4997d23d1.js" crossorigin="anonymous"></script>
 </head>
+
 <body onload="myFunction()">
     <header>
         <nav>
             <input type="checkbox" id="check">
             <h2 class="logo" id="sig-log"><a href="#home">JoeAtteen</a></h2>
-            <ul class="links">
+            <ul class="links" id="menu-link">
                 <img src="images/menu-img.jpeg" alt="">
-                <li class="about"><a href="#about">About</a></li>
-                <li class="work"><a href="#work">My Work</a></li>                
-                <li class="pricing"><a href="#pricing">Process & Pricing</a></li> 
-                <li class="contact"><a href="#contact">Contact</a></li>
-                <a class="resume" href="images/Resume.pdf" target="_blank"><button type="button">DOWNLOAD CV IN PDF</button></a>
+                <li class="about" id="link"><a href="#about">About</a></li>
+                <li class="work" id="link"><a href="#work">My Work</a></li>
+                <li class="pricing" id="link"><a href="#pricing">Process & Pricing</a></li>
+                <li class="contact" id="link"><a href="#contact">Contact</a></li>
+                <a class="resume" href="images/Resume.pdf" target="_blank"><button type="button">DOWNLOAD CV IN
+                        PDF</button></a>
                 <div class="menu-social">
                     <a href="https://github.com/Joe-Atteen" target="_blank"><i class="fab fa-github"></i><a></a>
-                    <a href="https://twitter.com/joe_atteen" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.linkedin.com/in/joe-atteen-6688361ba/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/joe_atteen" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/joe-atteen-6688361ba/" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
                 </div>
-            </ul>      
-            <label for="check" class="icon">
+            </ul>
+            <label for="check" class="icon" id="hamburger">
                 <div class="line"></div>
                 <div class="line"></div>
                 <div class="line"></div>
@@ -53,12 +58,12 @@
             <h2>About Me</h2>
             <div class="text">
                 <img src="images/Joe.JPG" alt="">
-                <p>A front-end web developer and programmer. Well-versed in the design and development 
-                   of websites and applications using techonologies such as CSS, JavaScript and
-                   frameworks and libraries such as Bootstrap and JQuery.<br><br>
-                   Seek to provide clients with a very interactive and responsive online presence
-                   that is accessible to all users, regardless of the device; meticulously ensuring 
-                   the delivery of products that meet expectation.<br><br>
+                <p>A front-end web developer and programmer. Well-versed in the design and development
+                    of websites and applications using techonologies such as CSS, JavaScript and
+                    frameworks and libraries such as Bootstrap and JQuery.<br><br>
+                    Seek to provide clients with a very interactive and responsive online presence
+                    that is accessible to all users, regardless of the device; meticulously ensuring
+                    the delivery of products that meet expectation.<br><br>
                 </p>
             </div>
             <h2 style="color: #009688;">Toolbox</h2>
@@ -166,36 +171,36 @@
             <div class="process">
                 <div class="card" id="card1">
                     <h3 style="color: rgb(255, 0, 93);">CONSULTATION</h3>
-                    <p>Design ideas, site requirements and 
-                       budget for the project are run through.  
+                    <p>Design ideas, site requirements and
+                        budget for the project are run through.
                     </p>
                     <p class="number">1</p>
                 </div>
                 <div class="card" id="card2">
                     <h3 style="color: rgb(219, 205, 8);">PROPOSAL</h3>
                     <p>Proposals are sent out, details are finalised
-                       and contract is formulated.
+                        and contract is formulated.
                     </p>
                     <p class="number">2</p>
                 </div>
                 <div class="card" id="card3">
                     <h3 style="color: rgb(27, 180, 104);">DEVELOPMENT</h3>
                     <p>Project gets underway and there are very frequent updates
-                       at this stage.
+                        at this stage.
                     </p>
                     <p class="number">3</p>
                 </div>
                 <div class="card" id="card4">
                     <h3 style="color: rgb(13, 62, 198);">DELIVERY</h3>
                     <p>The completed product is approved and transferred into your
-                       possession.
+                        possession.
                     </p>
                     <p class="number">4</p>
                 </div>
             </div>
             <div class="empty"></div>
             <p class="price">Rates are project-specific; they are based on your budget, business requirements,
-                specifications and customization. Consultations are <strong>100% free</strong>. Get in touch 
+                specifications and customization. Consultations are <strong>100% free</strong>. Get in touch
                 to be given a beautiful online presence that fits your budget.
             </p>
         </section>
@@ -206,17 +211,25 @@
             <div class="empty"></div>
             <div class="reach-me">
                 <div class="trad">
-                    <i class="fas fa-phone-alt"><a href="tel: +233209119731"><p>+233 20 911 9731</p></a></i>
-                    <i class="fas fa-envelope"><a href="mailto:joeyatteen@gmail.com"><p>joeyatteen@gmail.com</p></a></i>
-                    <i class="fas fa-map-marker-alt"><p>Accra, Ghana.</p></i>  
+                    <i class="fas fa-phone-alt"><a href="tel: +233209119731">
+                            <p>+233 20 911 9731</p>
+                        </a></i>
+                    <i class="fas fa-envelope"><a href="mailto:joeyatteen@gmail.com">
+                            <p>joeyatteen@gmail.com</p>
+                        </a></i>
+                    <i class="fas fa-map-marker-alt">
+                        <p>Accra, Ghana.</p>
+                    </i>
                 </div>
                 <div class="social">
                     <a href="https://github.com/Joe-Atteen" target="_blank"><i class="fab fa-github"></i><a></a>
-                    <a href="https://twitter.com/joe_atteen" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.linkedin.com/in/joe-atteen-6688361ba/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://web.facebook.com/josephemmanuel.atteen" target="_blank"><i class="fab fa-facebook"></i></a>
-                    <a href="https://wa.me/233209119731" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                    
+                        <a href="https://twitter.com/joe_atteen" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/joe-atteen-6688361ba/" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://web.facebook.com/josephemmanuel.atteen" target="_blank"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="https://wa.me/233209119731" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
                 </div>
             </div>
             <div class="empty emp2"></div>
@@ -234,4 +247,5 @@
 
 
 </body>
+
 </html>

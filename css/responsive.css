@@ -1,5 +1,5 @@
 @media screen and (min-width:769px) and (max-width:1300px) {
-    header{
+    header {
         background: linear-gradient(rgba(0, 0, 0, .88), rgba(0, 0, 0, .88)), url("/images/intro-bg.jpg") center no-repeat fixed;
         background-size: 100% 100%;
         max-height: 100vh;
@@ -8,14 +8,14 @@
 }
 
 @media screen and (max-width:768px) {
-    header{
+    header {
         background: linear-gradient(rgba(0, 0, 0, .88), rgba(0, 0, 0, .88));
         background-size: 100% 100%;
         max-height: 100vh;
         max-width: 100vw;
     }
 
-    .content{
+    .content {
         position: absolute;
         width: 100%;
         top: 50%;
@@ -23,137 +23,137 @@
         padding: 1rem;
     }
 
-    nav button{
+    nav button {
         display: block;
         margin-top: 2rem;
     }
 }
 
 @media screen and (max-width:768px) {
-    nav .links img{
+    nav .links img {
         display: block;
     }
 }
 
 @media screen and (max-width:360px) {
-    .content h1{
+    .content h1 {
         font-size: 4.5rem;
         line-height: 3.8rem;
     }
 }
 
 @media screen and (max-width:480px) {
-    nav .icon{
+    nav .icon {
         display: block;
     }
 
-    .links{
+    .links {
         display: none;
     }
 
-    .logo{
+    .logo {
         width: 70%;
     }
 
-    .content p{
+    .content p {
         font-size: 0.8rem;
     }
 }
 
 
 @media screen and (min-width:481px)and (max-width:599px) {
-    nav .icon{
+    nav .icon {
         display: block;
     }
 
-    .links{
+    .links {
         display: none;
     }
 
-    
-    .logo{
+
+    .logo {
         width: 50%;
     }
 
-    .content p{
+    .content p {
         font-size: 0.9rem;
     }
 }
 
 @media screen and (min-width:600px) and (max-width:768px) {
-    nav .icon{
+    nav .icon {
         display: block;
     }
 
-    .links{
+    .links {
         display: none;
     }
 
-    
-    .logo{
+
+    .logo {
         width: 50%;
     }
 
-    .content p{
+    .content p {
         font-size: 1.2rem;
     }
 }
 
 @media screen and (min-width:889px) and (max-width:1000px) {
-    .content p{
+    .content p {
         font-size: 1.4rem;
     }
 
-    
-    .content button{
+
+    .content button {
         height: 3rem;
         width: 11rem;
     }
 }
 
-@media screen  and (max-width:768px) {
-    .menu-social{
+@media screen and (max-width:768px) {
+    .menu-social {
         display: block;
     }
 }
 
 @media screen and (min-width:555px) and (max-width:700px) {
-    .menu-social{
+    .menu-social {
         font-size: 3.5rem;
         left: 22%;
     }
 }
 
 @media screen and (min-width:445px) and (max-width:554px) {
-    .menu-social{
+    .menu-social {
         font-size: 3rem;
         left: 22%;
     }
 }
 
 @media screen and (min-width:334px) and (max-width:444px) {
-    .menu-social{
+    .menu-social {
         font-size: 2.5rem;
         left: 19%;
     }
 }
 
 @media screen and (min-width:317px) and (max-width:333px) {
-    .menu-social{
+    .menu-social {
         font-size: 2.2rem;
         left: 17%;
     }
 }
 
 @media screen and (max-width:316px) {
-    .menu-social{
+    .menu-social {
         font-size: 2.2rem;
         left: 14%;
     }
 }
 
 @media screen and (max-width:768px) {
-    nav .links{
+    nav .links {
         position: fixed;
         z-index: 100;
         background: black;
@@ -165,110 +165,114 @@
         max-height: 100vh;
         width: 70%;
         border: 1px solid #767676;
-        box-shadow:  inset #009688 2px 5px 15px,
-        inset #009688 -2px -5px 15px;
+        box-shadow: inset #009688 2px 5px 15px,
+            inset #009688 -2px -5px 15px;
         transition: all .5s ease-in-out;
-    } 
+    }
 
-    nav .links li{
+    nav .links li {
         margin: .7rem;
         width: 100%;
     }
 
-    nav .links li a{
+    nav .links li a {
         padding: 2rem;
-        font-size: 1rem;
-        font-weight: 350;
+        font-size: 1.2rem;
+        font-weight: 420;
         line-height: 1rem;
+        text-transform: lowercase;
     }
-    nav :checked ~ .links{
+
+    nav :checked~.links {
         left: 40%;
         background-color: black;
     }
 
-    .icon{
+    .icon {
         z-index: 11;
     }
 
-    .content{
+    .content {
         overflow: hidden;
     }
 
-    nav :checked ~ .icon .line:nth-child(1){
+    nav :checked~.icon .line:nth-child(1) {
         transform: translateY(8px) rotate(225deg);
     }
 
-    nav :checked ~ .icon .line:nth-child(3){
+    nav :checked~.icon .line:nth-child(3) {
         transform: translateY(-8px) rotate(-225deg);
     }
 
-    nav :checked ~ .icon .line:nth-child(2){
+    nav :checked~.icon .line:nth-child(2) {
         opacity: 0;
     }
 
-    .about-me{
+    .about-me {
         padding: 2rem 0;
     }
 
-    .text{
+    .text {
         display: grid;
         justify-content: space-between;
     }
 
-    .text img{
+    .text img {
         width: 12rem;
         margin: auto;
         height: 12rem;
+        margin-bottom: 1rem;
     }
 
-    .text p{
+    .text p {
         margin: auto;
         width: 90%;
         text-align: justify;
-    } 
+    }
 
-    .icons{
+    .icons {
         font-size: 3rem;
         width: 80%;
         margin: auto;
     }
 
-    .p-p{
+    .p-p {
         padding: 2rem 0;
     }
 
-    #card1, #card3{
+    #card1,
+    #card3 {
         margin: 1rem;
     }
 
-    #card4{
+    #card4 {
         margin-bottom: 1rem;
     }
 
-    .p-p .empty{
+    .p-p .empty {
         margin: 2rem auto;
     }
 }
 
 @media screen and (max-width:269px) {
-    nav .links li a{
+    nav .links li a {
         padding: 2rem;
         font-size: .6rem;
     }
 
-    nav button{
+    nav button {
         width: 7rem;
         font-size: .5rem;
     }
 }
 
 @media screen and (min-width:270px) and (max-width:400px) {
-    nav .links li a{
+    nav .links li a {
         padding: 2rem;
         font-size: .8rem;
     }
 
-    nav button{
+    nav button {
         width: 7.7rem;
         font-size: .5rem;
         right: 10%;
@@ -277,7 +281,7 @@
 }
 
 @media screen and (min-width:401px) and (max-width:500px) {
-    nav button{
+    nav button {
         width: 8.5rem;
         font-size: .52rem;
         right: 13%;
@@ -286,7 +290,7 @@
 }
 
 @media screen and (min-width:501px) and (max-width:600px) {
-    nav button{
+    nav button {
         width: 9.5rem;
         font-size: .55rem;
         right: 16%;
@@ -295,7 +299,7 @@
 }
 
 @media screen and (min-width:601px) and (max-width:768px) {
-    nav button{
+    nav button {
         width: 10.5rem;
         font-size: .6rem;
         right: 18%;
@@ -304,53 +308,54 @@
 }
 
 @media screen and (min-width:769px) and (max-width:899px) {
-    .logo{
+    .logo {
         width: 20%;
     }
 
-    nav .links{
+    nav .links {
         width: 80%;
     }
 
-    nav button{
+    nav button {
         width: 6rem;
         font-size: .45rem;
     }
 }
 
-@media screen and (min-width:900px) and (max-width:1000px){
-    .logo{
+@media screen and (min-width:900px) and (max-width:1000px) {
+    .logo {
         width: 20%;
     }
 
-    nav .links{
+    nav .links {
         width: 80%;
     }
 }
 
 @media screen and (min-width:769px) and (max-width:1124px) {
-    .about-me{
+    .about-me {
         padding: 2rem 0;
     }
 
-    .text{
+    .text {
         display: grid;
         justify-content: space-between;
     }
 
-    .text img{
+    .text img {
         width: 14rem;
         margin: auto;
         height: 14rem;
+        margin-bottom: 1rem;
     }
 
-    .text p{
+    .text p {
         margin: auto;
         width: 70%;
         text-align: justify;
-    } 
+    }
 
-    .icons{
+    .icons {
         font-size: 4rem;
         width: 80%;
         margin: auto;
@@ -358,402 +363,462 @@
 }
 
 @media screen and (min-width:965px) and (max-width: 1063px) {
-    .img{
-        width: 15rem;
-        height: 22rem;
-    }
-    
-    .button{
+    .img {
         width: 15rem;
         height: 22rem;
     }
 
-    #slider-span1:target ~ .image-slider #img1,
-    #slider-span1:target ~ .image-slider #button-1{
+    .button {
+        width: 15rem;
+        height: 22rem;
+    }
+
+    #slider-span1:target~.image-slider #img1,
+    #slider-span1:target~.image-slider #button-1 {
         width: 21rem;
         height: 28rem;
     }
 
-    #slider-span2:target ~ .image-slider #img2,
-    #slider-span2:target ~ .image-slider #button-2{
+    #slider-span2:target~.image-slider #img2,
+    #slider-span2:target~.image-slider #button-2 {
         width: 21rem;
         height: 28rem;
     }
 
-    #slider-span3:target ~ .image-slider #img3,
-    #slider-span3:target ~ .image-slider #button-3{
+    #slider-span3:target~.image-slider #img3,
+    #slider-span3:target~.image-slider #button-3 {
         width: 21rem;
         height: 28rem;
     }
 
-    #slider-span4:target ~ .image-slider #img4,
-    #slider-span4:target ~ .image-slider #button-4{
+    #slider-span4:target~.image-slider #img4,
+    #slider-span4:target~.image-slider #button-4 {
         width: 21rem;
         height: 28rem;
     }
 
-    #slider-span5:target ~ .image-slider #img5,
-    #slider-span5:target ~ .image-slider #button-5{
+    #slider-span5:target~.image-slider #img5,
+    #slider-span5:target~.image-slider #button-5 {
         width: 21rem;
         height: 28rem;
     }
 
-    #slider-span6:target ~ .image-slider #img6,
-    #slider-span6:target ~ .image-slider #button-6{
+    #slider-span6:target~.image-slider #img6,
+    #slider-span6:target~.image-slider #button-6 {
         width: 21rem;
         height: 28rem;
     }
 
-    #slider-span7:target ~ .image-slider #img7,
-    #slider-span7:target ~ .image-slider #button-7{
+    #slider-span7:target~.image-slider #img7,
+    #slider-span7:target~.image-slider #button-7 {
         width: 21rem;
         height: 28rem;
     }
 }
 
 @media screen and (min-width: 740px) and (max-width: 964px) {
-    .slides-div{
+    .slides-div {
         margin: 1rem;
     }
 
-    .img{
-        width: 12rem;
-        height: 23rem;
-    }
-    
-    .button{
+    .img {
         width: 12rem;
         height: 23rem;
     }
 
-    #slider-span1:target ~ .image-slider #img1,
-    #slider-span1:target ~ .image-slider #button-1{
+    .button {
+        width: 12rem;
+        height: 23rem;
+    }
+
+    #slider-span1:target~.image-slider #img1,
+    #slider-span1:target~.image-slider #button-1 {
         width: 18rem;
         height: 29rem;
     }
 
-    #slider-span2:target ~ .image-slider #img2,
-    #slider-span2:target ~ .image-slider #button-2{
+    #slider-span2:target~.image-slider #img2,
+    #slider-span2:target~.image-slider #button-2 {
         width: 18rem;
         height: 29rem;
     }
 
-    #slider-span3:target ~ .image-slider #img3,
-    #slider-span3:target ~ .image-slider #button-3{
+    #slider-span3:target~.image-slider #img3,
+    #slider-span3:target~.image-slider #button-3 {
         width: 18rem;
         height: 29rem;
     }
 
-    #slider-span4:target ~ .image-slider #img4,
-    #slider-span4:target ~ .image-slider #button-4{
+    #slider-span4:target~.image-slider #img4,
+    #slider-span4:target~.image-slider #button-4 {
         width: 18rem;
         height: 29rem;
     }
 
-    #slider-span5:target ~ .image-slider #img5,
-    #slider-span5:target ~ .image-slider #button-5{
+    #slider-span5:target~.image-slider #img5,
+    #slider-span5:target~.image-slider #button-5 {
         width: 18rem;
         height: 29rem;
     }
 
-    #slider-span6:target ~ .image-slider #img6,
-    #slider-span6:target ~ .image-slider #button-6{
+    #slider-span6:target~.image-slider #img6,
+    #slider-span6:target~.image-slider #button-6 {
         width: 18rem;
         height: 29rem;
     }
 
-    #slider-span7:target ~ .image-slider #img7,
-    #slider-span7:target ~ .image-slider #button-7{
+    #slider-span7:target~.image-slider #img7,
+    #slider-span7:target~.image-slider #button-7 {
         width: 18rem;
         height: 29rem;
     }
 }
 
 @media screen and (min-width:650px) and (max-width: 739px) {
-    .slides-div{
+    .slides-div {
         margin: .5rem;
     }
 
-    .img{
-        width: 12rem;
-        height: 20rem;
-    }
-    
-    .button{
+    .img {
         width: 12rem;
         height: 20rem;
     }
 
-    #slider-span1:target ~ .image-slider #img1,
-    #slider-span1:target ~ .image-slider #button-1{
+    .button {
+        width: 12rem;
+        height: 20rem;
+    }
+
+    #slider-span1:target~.image-slider #img1,
+    #slider-span1:target~.image-slider #button-1 {
         width: 15rem;
         height: 26rem;
     }
 
-    #slider-span2:target ~ .image-slider #img2,
-    #slider-span2:target ~ .image-slider #button-2{
+    #slider-span2:target~.image-slider #img2,
+    #slider-span2:target~.image-slider #button-2 {
         width: 15rem;
         height: 26rem;
     }
 
-    #slider-span3:target ~ .image-slider #img3,
-    #slider-span3:target ~ .image-slider #button-3{
+    #slider-span3:target~.image-slider #img3,
+    #slider-span3:target~.image-slider #button-3 {
         width: 15rem;
         height: 26rem;
     }
 
-    #slider-span4:target ~ .image-slider #img4,
-    #slider-span4:target ~ .image-slider #button-4{
+    #slider-span4:target~.image-slider #img4,
+    #slider-span4:target~.image-slider #button-4 {
         width: 15rem;
         height: 26rem;
     }
 
-    #slider-span5:target ~ .image-slider #img5,
-    #slider-span5:target ~ .image-slider #button-5{
+    #slider-span5:target~.image-slider #img5,
+    #slider-span5:target~.image-slider #button-5 {
         width: 15rem;
         height: 26rem;
     }
 
-    #slider-span6:target ~ .image-slider #img6,
-    #slider-span6:target ~ .image-slider #button-6{
+    #slider-span6:target~.image-slider #img6,
+    #slider-span6:target~.image-slider #button-6 {
         width: 15rem;
         height: 26rem;
     }
 
-    #slider-span7:target ~ .image-slider #img7,
-    #slider-span7:target ~ .image-slider #button-7{
+    #slider-span7:target~.image-slider #img7,
+    #slider-span7:target~.image-slider #button-7 {
         width: 15rem;
         height: 26rem;
     }
 }
 
 @media screen and (min-width:415px) and (max-width:649px) {
-    .slides-div{
+    .slides-div {
         margin: .2rem;
     }
 
-    .img{
-        width: 12rem;
-        height: 20rem;
-    }
-    
-    .button{
+    .img {
         width: 12rem;
         height: 20rem;
     }
 
-    #slider-span1:target ~ .image-slider #img1,
-    #slider-span1:target ~ .image-slider #button-1{
+    .button {
+        width: 12rem;
+        height: 20rem;
+    }
+
+    #slider-span1:target~.image-slider #img1,
+    #slider-span1:target~.image-slider #button-1 {
         width: 15rem;
         height: 26rem;
     }
 
-    #slider-span2:target ~ .image-slider #img2,
-    #slider-span2:target ~ .image-slider #button-2{
+    #slider-span2:target~.image-slider #img2,
+    #slider-span2:target~.image-slider #button-2 {
         width: 15rem;
         height: 26rem;
     }
 
-    #slider-span3:target ~ .image-slider #img3,
-    #slider-span3:target ~ .image-slider #button-3{
+    #slider-span3:target~.image-slider #img3,
+    #slider-span3:target~.image-slider #button-3 {
         width: 15rem;
         height: 26rem;
     }
 
-    #slider-span4:target ~ .image-slider #img4,
-    #slider-span4:target ~ .image-slider #button-4{
+    #slider-span4:target~.image-slider #img4,
+    #slider-span4:target~.image-slider #button-4 {
         width: 15rem;
         height: 26rem;
     }
 
-    #slider-span5:target ~ .image-slider #img5,
-    #slider-span5:target ~ .image-slider #button-5{
+    #slider-span5:target~.image-slider #img5,
+    #slider-span5:target~.image-slider #button-5 {
         width: 15rem;
         height: 26rem;
     }
 
-    #slider-span6:target ~ .image-slider #img6,
-    #slider-span6:target ~ .image-slider #button-6{
+    #slider-span6:target~.image-slider #img6,
+    #slider-span6:target~.image-slider #button-6 {
         width: 15rem;
         height: 26rem;
     }
 
-    #slider-span7:target ~ .image-slider #img7,
-    #slider-span7:target ~ .image-slider #button-7{
+    #slider-span7:target~.image-slider #img7,
+    #slider-span7:target~.image-slider #button-7 {
         width: 15rem;
         height: 26rem;
     }
 
-    #slider-span1:target ~ .image-slider {left: 110%;}
-    #slider-span2:target ~ .image-slider {left: 90%;}
-    #slider-span3:target ~ .image-slider {left: 40%;}
-    #slider-span4:target ~ .image-slider {left: 0;}
-    #slider-span5:target ~ .image-slider {left: -40%;}
-    #slider-span6:target ~ .image-slider {left: -90%;}
-    #slider-span7:target ~ .image-slider {left: -110%;}
+    #slider-span1:target~.image-slider {
+        left: 110%;
+    }
+
+    #slider-span2:target~.image-slider {
+        left: 90%;
+    }
+
+    #slider-span3:target~.image-slider {
+        left: 40%;
+    }
+
+    #slider-span4:target~.image-slider {
+        left: 0;
+    }
+
+    #slider-span5:target~.image-slider {
+        left: -40%;
+    }
+
+    #slider-span6:target~.image-slider {
+        left: -90%;
+    }
+
+    #slider-span7:target~.image-slider {
+        left: -110%;
+    }
 }
 
 @media screen and (min-width:360px) and (max-width:414px) {
-    .slides-div{
+    .slides-div {
         margin: .2rem;
     }
 
-    .img{
-        width: 12rem;
-        height: 20rem;
-    }
-    
-    .button{
+    .img {
         width: 12rem;
         height: 20rem;
     }
 
-    #slider-span1:target ~ .image-slider #img1,
-    #slider-span1:target ~ .image-slider #button-1{
+    .button {
+        width: 12rem;
+        height: 20rem;
+    }
+
+    #slider-span1:target~.image-slider #img1,
+    #slider-span1:target~.image-slider #button-1 {
         width: 15rem;
         height: 26rem;
     }
 
-    #slider-span2:target ~ .image-slider #img2,
-    #slider-span2:target ~ .image-slider #button-2{
+    #slider-span2:target~.image-slider #img2,
+    #slider-span2:target~.image-slider #button-2 {
         width: 15rem;
         height: 26rem;
     }
 
-    #slider-span3:target ~ .image-slider #img3,
-    #slider-span3:target ~ .image-slider #button-3{
+    #slider-span3:target~.image-slider #img3,
+    #slider-span3:target~.image-slider #button-3 {
         width: 15rem;
         height: 26rem;
     }
 
-    #slider-span4:target ~ .image-slider #img4,
-    #slider-span4:target ~ .image-slider #button-4{
+    #slider-span4:target~.image-slider #img4,
+    #slider-span4:target~.image-slider #button-4 {
         width: 15rem;
         height: 26rem;
     }
 
-    #slider-span5:target ~ .image-slider #img5,
-    #slider-span5:target ~ .image-slider #button-5{
+    #slider-span5:target~.image-slider #img5,
+    #slider-span5:target~.image-slider #button-5 {
         width: 15rem;
         height: 26rem;
     }
 
-    #slider-span6:target ~ .image-slider #img6,
-    #slider-span6:target ~ .image-slider #button-6{
+    #slider-span6:target~.image-slider #img6,
+    #slider-span6:target~.image-slider #button-6 {
         width: 15rem;
         height: 26rem;
     }
 
-    #slider-span7:target ~ .image-slider #img7,
-    #slider-span7:target ~ .image-slider #button-7{
+    #slider-span7:target~.image-slider #img7,
+    #slider-span7:target~.image-slider #button-7 {
         width: 15rem;
         height: 26rem;
     }
 
-    #slider-span1:target ~ .image-slider {left: 170%;}
-    #slider-span2:target ~ .image-slider {left: 110%;}
-    #slider-span3:target ~ .image-slider {left: 60%;}
-    #slider-span4:target ~ .image-slider {left: 0;}
-    #slider-span5:target ~ .image-slider {left: -60%;}
-    #slider-span6:target ~ .image-slider {left: -110%;}
-    #slider-span7:target ~ .image-slider {left: -170%;}
+    #slider-span1:target~.image-slider {
+        left: 170%;
+    }
+
+    #slider-span2:target~.image-slider {
+        left: 110%;
+    }
+
+    #slider-span3:target~.image-slider {
+        left: 60%;
+    }
+
+    #slider-span4:target~.image-slider {
+        left: 0;
+    }
+
+    #slider-span5:target~.image-slider {
+        left: -60%;
+    }
+
+    #slider-span6:target~.image-slider {
+        left: -110%;
+    }
+
+    #slider-span7:target~.image-slider {
+        left: -170%;
+    }
 }
 
 @media screen and (max-width: 359px) {
-    .slides-div{
+    .slides-div {
         margin: .1rem;
     }
 
-    .img{
-        width: 11rem;
-        height: 18rem;
-    }
-    
-    .button{
+    .img {
         width: 11rem;
         height: 18rem;
     }
 
-    #slider-span1:target ~ .image-slider #img1,
-    #slider-span1:target ~ .image-slider #button-1{
+    .button {
+        width: 11rem;
+        height: 18rem;
+    }
+
+    #slider-span1:target~.image-slider #img1,
+    #slider-span1:target~.image-slider #button-1 {
         width: 15rem;
         height: 25rem;
     }
 
-    #slider-span2:target ~ .image-slider #img2,
-    #slider-span2:target ~ .image-slider #button-2{
+    #slider-span2:target~.image-slider #img2,
+    #slider-span2:target~.image-slider #button-2 {
         width: 13rem;
         height: 25rem;
     }
 
-    #slider-span3:target ~ .image-slider #img3,
-    #slider-span3:target ~ .image-slider #button-3{
+    #slider-span3:target~.image-slider #img3,
+    #slider-span3:target~.image-slider #button-3 {
         width: 13rem;
         height: 25rem;
     }
 
-    #slider-span4:target ~ .image-slider #img4,
-    #slider-span4:target ~ .image-slider #button-4{
+    #slider-span4:target~.image-slider #img4,
+    #slider-span4:target~.image-slider #button-4 {
         width: 13rem;
         height: 25rem;
     }
 
-    #slider-span5:target ~ .image-slider #img5,
-    #slider-span5:target ~ .image-slider #button-5{
+    #slider-span5:target~.image-slider #img5,
+    #slider-span5:target~.image-slider #button-5 {
         width: 13rem;
         height: 25rem;
     }
 
-    #slider-span6:target ~ .image-slider #img6,
-    #slider-span6:target ~ .image-slider #button-6{
+    #slider-span6:target~.image-slider #img6,
+    #slider-span6:target~.image-slider #button-6 {
         width: 13rem;
         height: 25rem;
     }
 
-    #slider-span7:target ~ .image-slider #img7,
-    #slider-span7:target ~ .image-slider #button-7{
+    #slider-span7:target~.image-slider #img7,
+    #slider-span7:target~.image-slider #button-7 {
         width: 13rem;
         height: 25rem;
     }
 
-    #slider-span1:target ~ .image-slider {left: 210%;}
-    #slider-span2:target ~ .image-slider {left: 140%;}
-    #slider-span3:target ~ .image-slider {left: 70%;}
-    #slider-span4:target ~ .image-slider {left: 0;}
-    #slider-span5:target ~ .image-slider {left: -70%;}
-    #slider-span6:target ~ .image-slider {left: -140%;}
-    #slider-span7:target ~ .image-slider {left: -210%;}
+    #slider-span1:target~.image-slider {
+        left: 210%;
+    }
 
-    .img a{
+    #slider-span2:target~.image-slider {
+        left: 140%;
+    }
+
+    #slider-span3:target~.image-slider {
+        left: 70%;
+    }
+
+    #slider-span4:target~.image-slider {
+        left: 0;
+    }
+
+    #slider-span5:target~.image-slider {
+        left: -70%;
+    }
+
+    #slider-span6:target~.image-slider {
+        left: -140%;
+    }
+
+    #slider-span7:target~.image-slider {
+        left: -210%;
+    }
+
+    .img a {
         font-size: .7rem;
     }
 }
 
 @media screen and (max-width:1000px) {
-    .p-p{
+    .p-p {
         padding: 2rem 0;
     }
 }
 
 
 @media screen and (max-width:287px) {
-    .card{
+    .card {
         height: 13rem;
         width: 70%;
         margin: auto;
         padding: 50px 20px;
     }
 
-    .card p{
+    .card p {
         font-size: 0.8rem;
     }
- 
-    .card .number{
+
+    .card .number {
         bottom: 14%;
         transform: translate(-10%, 0);
-    } 
+    }
 
-    .price{
+    .price {
         width: 80%;
         margin: auto;
         text-align: justify;
@@ -761,7 +826,7 @@
 }
 
 @media screen and (min-width:288px) and (max-width:411px) {
-    .card{
+    .card {
         height: 13rem;
         margin: .5rem;
         width: 70%;
@@ -769,21 +834,21 @@
         padding: 40px 40px;
     }
 
-    .card p{
+    .card p {
         font-size: 0.9rem;
     }
 
-    .card .number{
+    .card .number {
         bottom: 10%;
         transform: translate(-16%, 0);
     }
 
-    .empty{
+    .empty {
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
 
-    .price{
+    .price {
         width: 80%;
         margin: auto;
         text-align: justify;
@@ -791,28 +856,28 @@
 }
 
 @media screen and (min-width:412px) and (max-width:500px) {
-    .card{
+    .card {
         height: 13rem;
         margin: auto;
         width: 70%;
         padding: 50px 50px;
     }
 
-    .card p{
+    .card p {
         font-size: 13px;
     }
 
-    .card .number{
+    .card .number {
         bottom: 13%;
         transform: translate(-17%, 0);
     }
 
-    .empty{
+    .empty {
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
 
-    .price{
+    .price {
         width: 80%;
         margin: auto;
         text-align: justify;
@@ -820,7 +885,7 @@
 }
 
 @media screen and (max-width:500px) {
-    .process{
+    .process {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -828,17 +893,18 @@
 }
 
 @media screen and (min-width:501px) and (max-width:768px) {
-    .process{
+    .process {
         display: inline;
         justify-content: center;
         align-items: center;
     }
 
-    #card1, #card3{
+    #card1,
+    #card3 {
         margin: 2.2rem;
     }
 
-    .card{
+    .card {
         height: 15rem;
         width: 40%;
         margin: auto;
@@ -846,22 +912,22 @@
         display: inline-table;
     }
 
-    .card p{
+    .card p {
         font-size: 15px;
     }
 
-    .card .number{
+    .card .number {
         bottom: 18%;
         transform: translateY(-18%, 0);
         left: 12%;
     }
 
-    .empty{
+    .empty {
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
 
-    .price{
+    .price {
         width: 70%;
         margin: auto;
         text-align: justify;
@@ -869,115 +935,121 @@
 }
 
 @media screen and (min-width:570px) and (max-width: 650px) {
-    #card2, #card4{
+
+    #card2,
+    #card4 {
         margin-left: 1rem;
     }
 
-    #card1, #card3{
+    #card1,
+    #card3 {
         margin-left: 2rem;
     }
 }
 
 @media screen and (min-width:651px) and (max-width: 768px) {
-    #card2, #card4{
+
+    #card2,
+    #card4 {
         margin-left: 1.5rem;
     }
 
-    #card1, #card3{
+    #card1,
+    #card3 {
         margin-left: 2.5rem;
     }
 }
 
 @media screen and (min-width:769px) and (max-width: 853px) {
-    .card{
+    .card {
         width: 23%;
         margin: 0;
         height: 18rem;
         margin-bottom: 3rem;
     }
 
-    .card p{
+    .card p {
         font-size: .7rem;
     }
 
-    .card .number{
+    .card .number {
         bottom: 22%;
         transform: translate(-14%, 0);
     }
 
-    .price{
+    .price {
         width: 70%;
     }
 }
 
 @media screen and (min-width:854px) and (max-width: 1040px) {
-    .card{
+    .card {
         margin: .5rem;
         height: 18rem;
         margin-bottom: 3rem;
         padding: 70px 30px;
     }
 
-    .card p{
+    .card p {
         font-size: .9rem;
     }
 
-    .card .number{
+    .card .number {
         bottom: 28%;
         transform: translate(-15%, 0);
     }
 
-    
-    .price{
+
+    .price {
         width: 70%;
     }
 }
 
 @media screen and (min-width:1041px) and (max-width: 1300px) {
-    .card{
+    .card {
         margin: .6rem;
         height: 18rem;
         margin-bottom: 3rem;
         padding: 75px 30px;
     }
 
-    .card p{
+    .card p {
         font-size: .9rem;
     }
 }
 
 @media screen and (max-width:749px) {
-    .contact-me{
+    .contact-me {
         padding: 2rem 0;
         /* margin-top: 2rem; */
     }
 
-    .contact-me h4{
+    .contact-me h4 {
         font-size: 1rem;
         text-align: center;
     }
 
-    
-    .contact-me h5{
+
+    .contact-me h5 {
         text-align: center;
     }
 
-    .contact-me .empty{
+    .contact-me .empty {
         width: 80%;
         margin: auto;
     }
 
-    .reach-me{
+    .reach-me {
         display: grid;
         justify-content: space-evenly;
     }
 
-    .trad{
+    .trad {
         width: 80%;
         margin: auto;
     }
 
-    .social{
+    .social {
         font-size: 3rem;
         width: 100%;
         margin: auto;
@@ -985,7 +1057,7 @@
 }
 
 @media screen and (min-width:750px) and (max-width:1060px) {
-    .contact-me{
+    .contact-me {
         padding: 2rem 6rem;
     }
 }
@@ -997,11 +1069,11 @@
 } */
 
 @media screen and (max-width:320px) {
-    footer p{
+    footer p {
         font-size: .8rem;
     }
 
-    .social{
+    .social {
         font-size: 2.5rem;
     }
 }
