@@ -10,6 +10,9 @@
     <title>Joe Atteen</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/lightslider.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/lightslider.js"></script>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -78,92 +81,101 @@
         </section>
         <section class="my-work" id="work">
             <h2>Portfolio</h2>
-            <p>FEATURED PROJECTS</p>
-            <span class="slider-span" id="slider-span1"></span>
-            <span class="slider-span" id="slider-span2"></span>
-            <span class="slider-span" id="slider-span3"></span>
-            <span class="slider-span" id="slider-span4"></span>
-            <span class="slider-span" id="slider-span5"></span>
-            <span class="slider-span" id="slider-span6"></span>
-            <span class="slider-span" id="slider-span7"></span>
-            <div class="image-slider">
-                <div class="slides-div" id="slide-1">
-                    <div class="img" id="img1">
-                        <div class="description">
-                            <h3>THINK EMMY'S INTERIOR DECOR</h3>
-                            <div class="dot"></div>
-                            <h4>Web Development</h4>
+            <p id="fp">FEATURED PROJECTS</p>
+            <div class="work-container">
+                <ul id="lightSlider">
+                    <li>
+                        <div class="work-item" id="timerroll">
+                            <div class="work-text">
+                                <h3>TimerRoll</h3>
+                                <p>A very interesting dice game built with HTML, CSS and JavaScript.</p>
+                                <a href="https://github.com/Joe-Atteen/TimerRoll" target="_blank"><button class="btn1"
+                                        type="button">GITHUB</button></a>
+                                <a href="https://timerroll.netlify.app/" target="_blank"><button class="btn2"
+                                        type="button">VIEW
+                                        PROJECT</button></a>
+                            </div>
                         </div>
-                        <a href="">Find Out</a>
-                    </div>
-                    <a href="#slider-span1" class="button" id="button-1"></a>
-                </div>
-                <div class="slides-div" id="slide-2">
-                    <div class="img" id="img2">
-                        <div class="description">
-                            <h3>PASSWORD GENERATOR</h3>
-                            <div class="dot"></div>
-                            <h4>Mobile App Development</h4>
+                    </li>
+                    <li>
+                        <div class="work-item" id="pizza">
+                            <div class="work-text">
+                                <h3>Pizza Site</h3>
+                                <p>A sample pizza website built with HTML, CSS,Bootstrap.</p>
+                                <a href="https://github.com/Joe-Atteen/bootstrapsite-practice" target="_blank"><button
+                                        class="btn1" type="button">GITHUB</button></a>
+                                <a href="https://joeatteen.github.io/weather-app/" target="_blank"><button class="btn2"
+                                        type="button">VIEW
+                                        PROJECT</button></a>
+                            </div>
                         </div>
-                        <a href="">Find Out</a>
-                    </div>
-                    <a href="#slider-span2" class="button" id="button-2"></a>
-                </div>
-                <div class="slides-div" id="slide-3">
-                    <div class="img" id="img3">
-                        <div class="description">
-                            <h3>QUIZ APP</h3>
-                            <div class="dot"></div>
-                            <h4>Web & Mobile App Development</h4>
+                    </li>
+                    <li>
+                        <div class="work-item" id="shopping">
+                            <div class="work-text">
+                                <h3>Shopping Cart Site</h3>
+                                <p>A single-page shopping cart website built with Bootstrap.</p>
+                                <a href="https://github.com/Joe-Atteen/shopping-cart" target="_blank"><button
+                                        class="btn1" type="button">GITHUB</button></a>
+                                <a href="https://joeatteen.github.io/calculator/" target="_blank"><button class="btn2"
+                                        type="button">VIEW
+                                        PROJECT</button></a>
+                            </div>
                         </div>
-                        <a href="">Find Out</a>
-                    </div>
-                    <a href="#slider-span3" class="button" id="button-3"></a>
-                </div>
-                <div class="slides-div" id="slide-4">
-                    <div class="img" id="img4">
-                        <div class="description">
-                            <h3>PORTFOLIO WEBSITE</h3>
-                            <div class="dot"></div>
-                            <h4>Web Design & Development</h4>
+                    </li>
+                    <li>
+                        <div class="work-item" id="portfolio">
+                            <div class="work-text">
+                                <h3>Portfolio Website</h3>
+                                <p>A website built with HTML, CSS, JavaScript and JQuery.</p>
+                                <a href="https://github.com/Joe-Atteen/Portfolio-Website" target="_blank"><button
+                                        class="btn1" type="button">GITHUB</button></a>
+                                <a href="https://joeatteen.netlify.app/" target="_blank"><button class="btn2"
+                                        type="button">VIEW
+                                        PROJECT</button></a>
+                            </div>
                         </div>
-                        <a href="https://joeatteen.netlify.app" target="_blank">Find Out</a>
-                    </div>
-                    <a href="#slider-span4" class="button" id="button-4"></a>
-                </div>
-                <div class="slides-div" id="slide-5">
-                    <div class="img" id="img5">
-                        <div class="description">
-                            <h3>E-BOOK CENTER</h3>
-                            <div class="dot"></div>
-                            <h4>Web App Development</h4>
+                    </li>
+                    <li>
+                        <div class="work-item" id="office">
+                            <div class="work-text">
+                                <h3>Office Space Site</h3>
+                                <p>A sample office space site built with HTML, CSS and Bootstrap.</p>
+                                <a href="https://github.com/Joe-Atteen/workspace-site" target="_blank"><button
+                                        class="btn1" type="button">GITHUB</button></a>
+                                <a href="https://joeatteen.github.io/pomodoro-clock/" target="_blank"><button
+                                        class="btn2" type="button">VIEW
+                                        PROJECT</button></a>
+                            </div>
                         </div>
-                        <a href="">Find Out</a>
-                    </div>
-                    <a href="#slider-span5" class="button" id="button-5"></a>
-                </div>
-                <div class="slides-div" id="slide-6">
-                    <div class="img" id="img6">
-                        <div class="description">
-                            <h3>YOUTUBE CLONE</h3>
-                            <div class="dot"></div>
-                            <h4>UI Design</h4>
+                    </li>
+                    <li>
+                        <div class="work-item" id="guess">
+                            <div class="work-text">
+                                <h3>Guessilista</h3>
+                                <p>A fun guessing game built with HTML, CSS and JavaScript.</p>
+                                <a href="https://github.com/Joe-Atteen/Guessilista" target="_blank"><button class="btn1"
+                                        type="button">GITHUB</button></a>
+                                <a href="https://guessilista.netlify.app/" target="_blank"><button class="btn2"
+                                        type="button">VIEW
+                                        PROJECT</button></a>
+                            </div>
                         </div>
-                        <a href="">Find Out</a>
-                    </div>
-                    <a href="#slider-span6" class="button" id="button-6"></a>
-                </div>
-                <div class="slides-div" id="slide-7">
-                    <div class="img" id="img7">
-                        <div class="description">
-                            <h3>SOCIAL MEDIA DASHBOARD</h3>
-                            <div class="dot"></div>
-                            <h4>UI Design & Development</h4>
+                    </li>
+                    <li>
+                        <div class="work-item" id="calendly">
+                            <div class="work-text">
+                                <h3>Calendly</h3>
+                                <p>Reproduced Calendly's webpages using HTML and CSS only.</p>
+                                <a href="https://github.com/Joe-Atteen/calendly-site" target="_blank"><button
+                                        class="btn1" type="button">GITHUB</button></a>
+                                <a href="https://guessilista.netlify.app/" target="_blank"><button class="btn2"
+                                        type="button">VIEW
+                                        PROJECT</button></a>
+                            </div>
                         </div>
-                        <a href="">Find Out</a>
-                    </div>
-                    <a href="#slider-span7" class="button" id="button-7"></a>
-                </div>
+                    </li>
+                </ul>
             </div>
         </section>
         <section class="p-p" id="pricing">
@@ -242,7 +254,6 @@
 
 
 
-    <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/script.js"></script>
 
 

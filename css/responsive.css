@@ -1,6 +1,6 @@
 @media screen and (min-width:769px) and (max-width:1300px) {
     header {
-        background: linear-gradient(rgba(0, 0, 0, .88), rgba(0, 0, 0, .88)), url("/images/intro-bg.jpg") center no-repeat fixed;
+        background: linear-gradient(rgba(0, 0, 0, .88), rgba(0, 0, 0, .88)), url("/images/intro.jpeg") center no-repeat fixed;
         background-size: 100% 100%;
         max-height: 100vh;
         max-width: 100vw;
@@ -362,438 +362,6 @@
     }
 }
 
-@media screen and (min-width:965px) and (max-width: 1063px) {
-    .img {
-        width: 15rem;
-        height: 22rem;
-    }
-
-    .button {
-        width: 15rem;
-        height: 22rem;
-    }
-
-    #slider-span1:target~.image-slider #img1,
-    #slider-span1:target~.image-slider #button-1 {
-        width: 21rem;
-        height: 28rem;
-    }
-
-    #slider-span2:target~.image-slider #img2,
-    #slider-span2:target~.image-slider #button-2 {
-        width: 21rem;
-        height: 28rem;
-    }
-
-    #slider-span3:target~.image-slider #img3,
-    #slider-span3:target~.image-slider #button-3 {
-        width: 21rem;
-        height: 28rem;
-    }
-
-    #slider-span4:target~.image-slider #img4,
-    #slider-span4:target~.image-slider #button-4 {
-        width: 21rem;
-        height: 28rem;
-    }
-
-    #slider-span5:target~.image-slider #img5,
-    #slider-span5:target~.image-slider #button-5 {
-        width: 21rem;
-        height: 28rem;
-    }
-
-    #slider-span6:target~.image-slider #img6,
-    #slider-span6:target~.image-slider #button-6 {
-        width: 21rem;
-        height: 28rem;
-    }
-
-    #slider-span7:target~.image-slider #img7,
-    #slider-span7:target~.image-slider #button-7 {
-        width: 21rem;
-        height: 28rem;
-    }
-}
-
-@media screen and (min-width: 740px) and (max-width: 964px) {
-    .slides-div {
-        margin: 1rem;
-    }
-
-    .img {
-        width: 12rem;
-        height: 23rem;
-    }
-
-    .button {
-        width: 12rem;
-        height: 23rem;
-    }
-
-    #slider-span1:target~.image-slider #img1,
-    #slider-span1:target~.image-slider #button-1 {
-        width: 18rem;
-        height: 29rem;
-    }
-
-    #slider-span2:target~.image-slider #img2,
-    #slider-span2:target~.image-slider #button-2 {
-        width: 18rem;
-        height: 29rem;
-    }
-
-    #slider-span3:target~.image-slider #img3,
-    #slider-span3:target~.image-slider #button-3 {
-        width: 18rem;
-        height: 29rem;
-    }
-
-    #slider-span4:target~.image-slider #img4,
-    #slider-span4:target~.image-slider #button-4 {
-        width: 18rem;
-        height: 29rem;
-    }
-
-    #slider-span5:target~.image-slider #img5,
-    #slider-span5:target~.image-slider #button-5 {
-        width: 18rem;
-        height: 29rem;
-    }
-
-    #slider-span6:target~.image-slider #img6,
-    #slider-span6:target~.image-slider #button-6 {
-        width: 18rem;
-        height: 29rem;
-    }
-
-    #slider-span7:target~.image-slider #img7,
-    #slider-span7:target~.image-slider #button-7 {
-        width: 18rem;
-        height: 29rem;
-    }
-}
-
-@media screen and (min-width:650px) and (max-width: 739px) {
-    .slides-div {
-        margin: .5rem;
-    }
-
-    .img {
-        width: 12rem;
-        height: 20rem;
-    }
-
-    .button {
-        width: 12rem;
-        height: 20rem;
-    }
-
-    #slider-span1:target~.image-slider #img1,
-    #slider-span1:target~.image-slider #button-1 {
-        width: 15rem;
-        height: 26rem;
-    }
-
-    #slider-span2:target~.image-slider #img2,
-    #slider-span2:target~.image-slider #button-2 {
-        width: 15rem;
-        height: 26rem;
-    }
-
-    #slider-span3:target~.image-slider #img3,
-    #slider-span3:target~.image-slider #button-3 {
-        width: 15rem;
-        height: 26rem;
-    }
-
-    #slider-span4:target~.image-slider #img4,
-    #slider-span4:target~.image-slider #button-4 {
-        width: 15rem;
-        height: 26rem;
-    }
-
-    #slider-span5:target~.image-slider #img5,
-    #slider-span5:target~.image-slider #button-5 {
-        width: 15rem;
-        height: 26rem;
-    }
-
-    #slider-span6:target~.image-slider #img6,
-    #slider-span6:target~.image-slider #button-6 {
-        width: 15rem;
-        height: 26rem;
-    }
-
-    #slider-span7:target~.image-slider #img7,
-    #slider-span7:target~.image-slider #button-7 {
-        width: 15rem;
-        height: 26rem;
-    }
-}
-
-@media screen and (min-width:415px) and (max-width:649px) {
-    .slides-div {
-        margin: .2rem;
-    }
-
-    .img {
-        width: 12rem;
-        height: 20rem;
-    }
-
-    .button {
-        width: 12rem;
-        height: 20rem;
-    }
-
-    #slider-span1:target~.image-slider #img1,
-    #slider-span1:target~.image-slider #button-1 {
-        width: 15rem;
-        height: 26rem;
-    }
-
-    #slider-span2:target~.image-slider #img2,
-    #slider-span2:target~.image-slider #button-2 {
-        width: 15rem;
-        height: 26rem;
-    }
-
-    #slider-span3:target~.image-slider #img3,
-    #slider-span3:target~.image-slider #button-3 {
-        width: 15rem;
-        height: 26rem;
-    }
-
-    #slider-span4:target~.image-slider #img4,
-    #slider-span4:target~.image-slider #button-4 {
-        width: 15rem;
-        height: 26rem;
-    }
-
-    #slider-span5:target~.image-slider #img5,
-    #slider-span5:target~.image-slider #button-5 {
-        width: 15rem;
-        height: 26rem;
-    }
-
-    #slider-span6:target~.image-slider #img6,
-    #slider-span6:target~.image-slider #button-6 {
-        width: 15rem;
-        height: 26rem;
-    }
-
-    #slider-span7:target~.image-slider #img7,
-    #slider-span7:target~.image-slider #button-7 {
-        width: 15rem;
-        height: 26rem;
-    }
-
-    #slider-span1:target~.image-slider {
-        left: 110%;
-    }
-
-    #slider-span2:target~.image-slider {
-        left: 90%;
-    }
-
-    #slider-span3:target~.image-slider {
-        left: 40%;
-    }
-
-    #slider-span4:target~.image-slider {
-        left: 0;
-    }
-
-    #slider-span5:target~.image-slider {
-        left: -40%;
-    }
-
-    #slider-span6:target~.image-slider {
-        left: -90%;
-    }
-
-    #slider-span7:target~.image-slider {
-        left: -110%;
-    }
-}
-
-@media screen and (min-width:360px) and (max-width:414px) {
-    .slides-div {
-        margin: .2rem;
-    }
-
-    .img {
-        width: 12rem;
-        height: 20rem;
-    }
-
-    .button {
-        width: 12rem;
-        height: 20rem;
-    }
-
-    #slider-span1:target~.image-slider #img1,
-    #slider-span1:target~.image-slider #button-1 {
-        width: 15rem;
-        height: 26rem;
-    }
-
-    #slider-span2:target~.image-slider #img2,
-    #slider-span2:target~.image-slider #button-2 {
-        width: 15rem;
-        height: 26rem;
-    }
-
-    #slider-span3:target~.image-slider #img3,
-    #slider-span3:target~.image-slider #button-3 {
-        width: 15rem;
-        height: 26rem;
-    }
-
-    #slider-span4:target~.image-slider #img4,
-    #slider-span4:target~.image-slider #button-4 {
-        width: 15rem;
-        height: 26rem;
-    }
-
-    #slider-span5:target~.image-slider #img5,
-    #slider-span5:target~.image-slider #button-5 {
-        width: 15rem;
-        height: 26rem;
-    }
-
-    #slider-span6:target~.image-slider #img6,
-    #slider-span6:target~.image-slider #button-6 {
-        width: 15rem;
-        height: 26rem;
-    }
-
-    #slider-span7:target~.image-slider #img7,
-    #slider-span7:target~.image-slider #button-7 {
-        width: 15rem;
-        height: 26rem;
-    }
-
-    #slider-span1:target~.image-slider {
-        left: 170%;
-    }
-
-    #slider-span2:target~.image-slider {
-        left: 110%;
-    }
-
-    #slider-span3:target~.image-slider {
-        left: 60%;
-    }
-
-    #slider-span4:target~.image-slider {
-        left: 0;
-    }
-
-    #slider-span5:target~.image-slider {
-        left: -60%;
-    }
-
-    #slider-span6:target~.image-slider {
-        left: -110%;
-    }
-
-    #slider-span7:target~.image-slider {
-        left: -170%;
-    }
-}
-
-@media screen and (max-width: 359px) {
-    .slides-div {
-        margin: .1rem;
-    }
-
-    .img {
-        width: 11rem;
-        height: 18rem;
-    }
-
-    .button {
-        width: 11rem;
-        height: 18rem;
-    }
-
-    #slider-span1:target~.image-slider #img1,
-    #slider-span1:target~.image-slider #button-1 {
-        width: 15rem;
-        height: 25rem;
-    }
-
-    #slider-span2:target~.image-slider #img2,
-    #slider-span2:target~.image-slider #button-2 {
-        width: 13rem;
-        height: 25rem;
-    }
-
-    #slider-span3:target~.image-slider #img3,
-    #slider-span3:target~.image-slider #button-3 {
-        width: 13rem;
-        height: 25rem;
-    }
-
-    #slider-span4:target~.image-slider #img4,
-    #slider-span4:target~.image-slider #button-4 {
-        width: 13rem;
-        height: 25rem;
-    }
-
-    #slider-span5:target~.image-slider #img5,
-    #slider-span5:target~.image-slider #button-5 {
-        width: 13rem;
-        height: 25rem;
-    }
-
-    #slider-span6:target~.image-slider #img6,
-    #slider-span6:target~.image-slider #button-6 {
-        width: 13rem;
-        height: 25rem;
-    }
-
-    #slider-span7:target~.image-slider #img7,
-    #slider-span7:target~.image-slider #button-7 {
-        width: 13rem;
-        height: 25rem;
-    }
-
-    #slider-span1:target~.image-slider {
-        left: 210%;
-    }
-
-    #slider-span2:target~.image-slider {
-        left: 140%;
-    }
-
-    #slider-span3:target~.image-slider {
-        left: 70%;
-    }
-
-    #slider-span4:target~.image-slider {
-        left: 0;
-    }
-
-    #slider-span5:target~.image-slider {
-        left: -70%;
-    }
-
-    #slider-span6:target~.image-slider {
-        left: -140%;
-    }
-
-    #slider-span7:target~.image-slider {
-        left: -210%;
-    }
-
-    .img a {
-        font-size: .7rem;
-    }
-}
-
 @media screen and (max-width:1000px) {
     .p-p {
         padding: 2rem 0;
@@ -1075,5 +643,53 @@
 
     .social {
         font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width:371px) and (max-width:385px) {
+    .work-container {
+        padding: 0 .5rem;
+    }
+}
+
+@media screen and (min-width:361px) and (max-width:370px) {
+    .work-container {
+        padding: 0 .2rem;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:360px) {
+    .work-container {
+        padding: 0 0;
+    }
+
+    .work-item {
+        width: 27ch;
+    }
+}
+
+@media screen and (max-width:319px) {
+    .my-work {
+        padding: 2rem .5rem;
+    }
+
+    .work-container {
+        padding: 0 0;
+    }
+
+    .work-item {
+        width: 23ch;
+    }
+
+    .work-text {
+        padding: 1rem 0 1rem 0;
+    }
+
+    .btn1 {
+        padding: .5rem 1rem;
+    }
+
+    .btn2 {
+        padding: .5rem 1rem;
     }
 }
