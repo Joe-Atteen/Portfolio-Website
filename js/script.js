@@ -13,9 +13,11 @@ window.addEventListener('scroll', () => {
 
 
 //on site load, logo shouldn't be seen
-function myFunction() {
+window.addEventListener("DOMContentLoaded", (event) => {
     document.getElementById("sig-log").style.opacity = 0;
-}
+});
+
+
 
 //logo should appear on scroll
 window.addEventListener('scroll', () => {
