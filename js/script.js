@@ -1,3 +1,11 @@
+//preloader
+let preLoader = document.querySelector('#preloader');
+window.addEventListener('load', function () {
+    preLoader.style.display = 'none';
+});
+
+
+
 //background color on navbar on scroll
 const nav = document.querySelector('nav');
 window.addEventListener('scroll', () => {

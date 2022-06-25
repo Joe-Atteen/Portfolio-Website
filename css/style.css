@@ -13,6 +13,18 @@ body {
     overflow-x: hidden;
 }
 
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100vh;
+    overflow: visible;
+    background: #000000 url('../images/preloader.gif') no-repeat center center;
+    background-size: 30%;
+}
+
 #check {
     display: none;
 }
@@ -37,7 +49,7 @@ nav .icon .line {
 }
 
 header {
-    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url("../images/intro.jpeg") center no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, .83), rgba(0, 0, 0, .83)), url("../images/intro.jpeg") center no-repeat fixed;
     background-size: cover;
     height: 100vh;
 }
