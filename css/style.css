@@ -279,7 +279,8 @@ nav .links li.active::after {
 }
 
 .icons img {
-  width: 10%;
+  width: 3rem;
+  height: 3rem;
 }
 
 .my-work {
