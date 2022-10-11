@@ -394,6 +394,10 @@ nav .links li.active::after {
   background-image: url("../images/calendly.png");
 }
 
+#lemsalon {
+  background-image: url("../images/lemsalon.png");
+}
+
 .p-p {
   padding: 2rem 3rem;
   background: rgb(239, 239, 239);
