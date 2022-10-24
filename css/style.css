@@ -398,6 +398,14 @@ nav .links li.active::after {
   background-image: url("../images/lemsalon.png");
 }
 
+#post {
+  background-image: url("../images/post.png");
+}
+
+#dersby {
+  background-image: url("../images/dersby.png");
+}
+
 .p-p {
   padding: 2rem 3rem;
   background: rgb(239, 239, 239);
