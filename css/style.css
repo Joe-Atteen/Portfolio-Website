@@ -53,15 +53,14 @@ nav .icon .line {
 }
 
 header {
-  background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)),
-    url("../images/intro.jpeg") center no-repeat fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88));
   background-size: cover;
   height: 100vh;
   max-width: 100vw;
 }
 
 nav {
-  height: 6.5rem;
+  height: 5.5rem;
   position: fixed;
   width: 100%;
   left: 0;
@@ -108,24 +107,20 @@ nav .links img {
 }
 
 nav button {
-  /* margin-top: 2rem; */
   height: 3rem;
-  width: 8.5rem;
+  width: 9rem;
   font-size: 0.6rem;
   color: white;
   background: transparent;
   border: 1px solid #009688;
   cursor: pointer;
-  box-shadow: #009688 0 0 5px 2px;
-  /* right: 0;
-    transform: translate(0, 0); */
-  /* display: none; */
+  box-shadow: #009688 0 0 2px 1px;
 }
 
 nav button:hover {
   background: #009688;
-  transition: 0.5s;
-  box-shadow: white 0 0 5px 2px;
+  transition: 0.2s;
+  box-shadow: white 0 0 2px 1px;
 }
 
 .black {
@@ -194,6 +189,7 @@ nav .links li.active::after {
   font-size: 7rem;
   font-weight: 700;
   line-height: 7rem;
+  letter-spacing: 2px;
 }
 
 .content p {
@@ -208,13 +204,13 @@ nav .links li.active::after {
   background: transparent;
   border: 1px solid #009688;
   cursor: pointer;
-  box-shadow: #009688 0 0 5px 2px;
+  box-shadow: #009688 0 0 2px 1px;
 }
 
 .content button:hover {
   background: #009688;
-  transition: 0.5s;
-  box-shadow: white 0 0 5px 2px;
+  transition: 0.2s;
+  box-shadow: white 0 0 2px 1px;
 }
 
 .menu-social {
@@ -237,7 +233,7 @@ nav .links li.active::after {
 }
 
 .about-me {
-  padding: 2rem 10rem 0 10rem;
+  padding: 5rem 10rem;
 }
 
 .text {
@@ -246,19 +242,18 @@ nav .links li.active::after {
 }
 
 .about-me h2,
-.p-p h2,
+.tools h2,
 .contact-me h2 {
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .text img {
   width: 13rem;
-  height: 13rem;
+  height: 11rem;
   border-radius: 50%;
   margin-right: 4rem;
-  /* border: 1px solid #009688; */
 }
 
 .text p {
@@ -267,24 +262,8 @@ nav .links li.active::after {
   line-height: 30px;
 }
 
-.toolbox {
-  width: 100%;
-  background: #f3f2f2;
-  padding: 2rem 0;
-}
-
-.icons {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.icons img {
-  width: 3rem;
-  height: 3rem;
-}
-
 .my-work {
-  padding: 2rem 1rem;
+  padding: 5rem 1rem;
   background-color: rgb(30, 30, 30);
   color: white;
   align-items: center;
@@ -328,6 +307,8 @@ nav .links li.active::after {
   background: #fbf1f1;
   color: #000000;
   border: #009688 1px solid;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
   padding: 1rem 0 1rem 1rem;
 }
 
@@ -410,77 +391,33 @@ nav .links li.active::after {
   background-image: url("../images/coldsis.png");
 }
 
-.p-p {
-  padding: 2rem 3rem;
+.tools {
+  padding: 5rem 3rem;
   background: rgb(239, 239, 239);
 }
 
-.process {
-  display: flex;
-  justify-content: space-evenly;
+.tools div {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: center;
+  gap: 30px;
 }
 
-.card {
-  margin: 2rem;
-  padding: 90px 30px;
-  height: 20rem;
-  width: 18rem;
-  border-radius: 2rem;
-  margin-bottom: 3rem;
-  box-shadow: rgb(147, 147, 147) 5px 5px 7px 2px, white -5px -5px 10px 2px;
-  position: relative;
-}
-
-.card h3 {
-  text-align: center;
-  margin-bottom: 0.5rem;
-}
-
-.card p {
-  text-align: center;
-}
-
-.card .number {
-  font-size: 6rem;
-  color: #009688;
-  opacity: 0.2;
-  position: absolute;
-  bottom: 30%;
-  transform: translate(-12.5%, 0);
-  width: 100%;
-  margin: auto;
-}
-
-.p-p .empty {
-  width: 80%;
-  margin: auto;
-  height: 1px;
-  background-color: #009688;
-}
-
-.price {
-  width: 50%;
-  margin: auto;
-  margin-top: 2rem;
-  text-align: justify;
-  font-size: 16px;
-  line-height: 30px;
-}
-
-strong {
-  color: #009688;
+.tools img {
+  width: 150px;
+  height: 150px;
 }
 
 .contact-me {
   background-color: rgb(30, 30, 30);
   color: white;
-  padding: 2rem 14rem;
+  padding: 5rem 14rem;
 }
 
 .contact-me h4 {
   text-transform: uppercase;
   font-size: 1.2rem;
-  margin-top: 5rem;
+  margin-top: 3rem;
   margin-bottom: 1rem;
 }
 

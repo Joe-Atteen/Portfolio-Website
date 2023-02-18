@@ -1,13 +1,3 @@
-@media screen and (min-width: 769px) and (max-width: 1300px) {
-  header {
-    background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)),
-      url("/images/intro.jpeg") center no-repeat fixed;
-    background-size: 100% 100%;
-    max-height: 100vh;
-    max-width: 100vw;
-  }
-}
-
 @media screen and (max-width: 768px) {
   header {
     background: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88));
@@ -28,9 +18,7 @@
     display: block;
     margin-top: 2rem;
   }
-}
 
-@media screen and (max-width: 768px) {
   nav .links img {
     display: block;
   }
@@ -47,6 +35,13 @@
   .content h1 {
     font-size: 5.8rem;
     line-height: 5.2rem;
+  }
+}
+
+@media screen and (min-width: 411px) and (max-width: 430px) {
+  .content h1 {
+    font-size: 6.5rem;
+    line-height: 6.5rem;
   }
 }
 
@@ -190,7 +185,6 @@
     font-size: 1.2rem;
     font-weight: 420;
     line-height: 1rem;
-    text-transform: lowercase;
   }
 
   nav :checked ~ .links {
@@ -207,11 +201,11 @@
   }
 
   nav :checked ~ .icon .line:nth-child(1) {
-    transform: translateY(8px) rotate(225deg);
+    transform: translateY(7px) rotate(45deg);
   }
 
   nav :checked ~ .icon .line:nth-child(3) {
-    transform: translateY(-8px) rotate(-225deg);
+    transform: translateY(-7px) rotate(-45deg);
   }
 
   nav :checked ~ .icon .line:nth-child(2) {
@@ -219,7 +213,7 @@
   }
 
   .about-me {
-    padding: 2rem 0 0 0;
+    padding: 5rem 0;
   }
 
   .text {
@@ -228,9 +222,9 @@
   }
 
   .text img {
-    width: 12rem;
+    width: 9rem;
     margin: auto;
-    height: 12rem;
+    height: 10rem;
     margin-bottom: 1rem;
   }
 
@@ -244,23 +238,6 @@
     font-size: 3rem;
     width: 80%;
     margin: auto;
-  }
-
-  .p-p {
-    padding: 2rem 0;
-  }
-
-  #card1,
-  #card3 {
-    margin: 1rem;
-  }
-
-  #card4 {
-    margin-bottom: 1rem;
-  }
-
-  .p-p .empty {
-    margin: 2rem auto;
   }
 }
 
@@ -344,7 +321,7 @@
 
 @media screen and (min-width: 769px) and (max-width: 1124px) {
   .about-me {
-    padding: 2rem 0 0 0;
+    padding: 5rem 0;
   }
 
   .text {
@@ -372,230 +349,9 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
-  .p-p {
-    padding: 2rem 0;
-  }
-}
-
-@media screen and (max-width: 287px) {
-  .card {
-    height: 13rem;
-    width: 70%;
-    margin: auto;
-    padding: 50px 20px;
-  }
-
-  .card p {
-    font-size: 0.8rem;
-  }
-
-  .card .number {
-    bottom: 14%;
-    transform: translate(-10%, 0);
-  }
-
-  .price {
-    width: 80%;
-    margin: auto;
-    text-align: justify;
-  }
-}
-
-@media screen and (min-width: 288px) and (max-width: 411px) {
-  .card {
-    height: 13rem;
-    margin: 0.5rem;
-    width: 70%;
-    margin: auto;
-    padding: 40px 40px;
-  }
-
-  .card p {
-    font-size: 0.9rem;
-  }
-
-  .card .number {
-    bottom: 10%;
-    transform: translate(-16%, 0);
-  }
-
-  .empty {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .price {
-    width: 80%;
-    margin: auto;
-    text-align: justify;
-  }
-}
-
-@media screen and (min-width: 412px) and (max-width: 500px) {
-  .card {
-    height: 13rem;
-    margin: auto;
-    width: 70%;
-    padding: 50px 50px;
-  }
-
-  .card p {
-    font-size: 13px;
-  }
-
-  .card .number {
-    bottom: 13%;
-    transform: translate(-17%, 0);
-  }
-
-  .empty {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .price {
-    width: 80%;
-    margin: auto;
-    text-align: justify;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .process {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media screen and (min-width: 501px) and (max-width: 768px) {
-  .process {
-    display: inline;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #card1,
-  #card3 {
-    margin: 2.2rem;
-  }
-
-  .card {
-    height: 15rem;
-    width: 40%;
-    margin: auto;
-    padding: 60px 25px;
-    display: inline-table;
-  }
-
-  .card p {
-    font-size: 15px;
-  }
-
-  .card .number {
-    bottom: 18%;
-    transform: translateY(-18%, 0);
-    left: 12%;
-  }
-
-  .empty {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .price {
-    width: 70%;
-    margin: auto;
-    text-align: justify;
-  }
-}
-
-@media screen and (min-width: 570px) and (max-width: 650px) {
-  #card2,
-  #card4 {
-    margin-left: 1rem;
-  }
-
-  #card1,
-  #card3 {
-    margin-left: 2rem;
-  }
-}
-
-@media screen and (min-width: 651px) and (max-width: 768px) {
-  #card2,
-  #card4 {
-    margin-left: 1.5rem;
-  }
-
-  #card1,
-  #card3 {
-    margin-left: 2.5rem;
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 853px) {
-  .card {
-    width: 23%;
-    margin: 0;
-    height: 18rem;
-    margin-bottom: 3rem;
-  }
-
-  .card p {
-    font-size: 0.7rem;
-  }
-
-  .card .number {
-    bottom: 22%;
-    transform: translate(-14%, 0);
-  }
-
-  .price {
-    width: 70%;
-  }
-}
-
-@media screen and (min-width: 854px) and (max-width: 1040px) {
-  .card {
-    margin: 0.5rem;
-    height: 18rem;
-    margin-bottom: 3rem;
-    padding: 70px 30px;
-  }
-
-  .card p {
-    font-size: 0.9rem;
-  }
-
-  .card .number {
-    bottom: 28%;
-    transform: translate(-15%, 0);
-  }
-
-  .price {
-    width: 70%;
-  }
-}
-
-@media screen and (min-width: 1041px) and (max-width: 1300px) {
-  .card {
-    margin: 0.6rem;
-    height: 18rem;
-    margin-bottom: 3rem;
-    padding: 75px 30px;
-  }
-
-  .card p {
-    font-size: 0.9rem;
-  }
-}
-
 @media screen and (max-width: 749px) {
   .contact-me {
-    padding: 2rem 0;
-    /* margin-top: 2rem; */
+    padding: 5rem 0;
   }
 
   .contact-me h4 {
@@ -629,17 +385,39 @@
   }
 }
 
-@media screen and (min-width: 750px) and (max-width: 1060px) {
-  .contact-me {
-    padding: 2rem 6rem;
+@media screen and (max-width: 900px) {
+  .tools div {
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
   }
 }
 
-/* @media screen and (min-width:750px) and (max-width:768px) {
-    .contact-me{
-        margin-top: 2rem;
-    }
-} */
+@media screen and (max-width: 760px) {
+  .tools div {
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .tools img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .tools img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1060px) {
+  .contact-me {
+    padding: 5rem 6rem;
+  }
+}
 
 @media screen and (max-width: 320px) {
   footer p {
