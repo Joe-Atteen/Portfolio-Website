@@ -2,6 +2,7 @@
 let preLoader = document.querySelector("#preloader");
 window.addEventListener("load", function () {
   preLoader.style.display = "none";
+  // window.scrollY = 0;
 });
 
 //background color on navbar on scroll

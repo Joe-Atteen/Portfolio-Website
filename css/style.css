@@ -295,7 +295,7 @@ nav .links li.active::after {
   padding: 17rem 0 0;
   width: 30ch;
   height: auto;
-  margin: 0 1rem;
+  margin: 0 1rem 20px 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -364,7 +364,7 @@ nav .links li.active::after {
 }
 
 #office {
-  background-image: url("../images/office-site.png");
+  background-image: url("../images/submit.png");
 }
 
 #guess {
@@ -372,7 +372,7 @@ nav .links li.active::after {
 }
 
 #calendly {
-  background-image: url("../images/calendly.png");
+  background-image: url("../images/cedirates.png");
 }
 
 #lemsalon {
