@@ -125,7 +125,6 @@ nav button:hover {
 
 .black {
   background-color: black;
-  z-index: 1;
   transition: all 1s ease-in-out;
   z-index: 200;
 }
@@ -369,6 +368,10 @@ nav .links li.active::after {
 
 #guess {
   background-image: url("../images/guess.png");
+}
+
+#rent-monitor {
+  background-image: url("../images/rent-monitor.png");
 }
 
 #calendly {
