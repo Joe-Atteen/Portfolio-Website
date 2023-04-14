@@ -1,7 +1,9 @@
 //preloader
 let preLoader = document.querySelector("#preloader");
 window.addEventListener("load", function () {
-  preLoader.style.display = "none";
+  setTimeout(function () {
+    preLoader.style.display = "none";
+  }, 3000);
   // window.scrollY = 0;
 });
 
